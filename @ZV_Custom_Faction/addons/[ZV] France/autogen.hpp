@@ -23,6 +23,63 @@ class CfgGroups {
             class Infantry {
                 name = "Infantry";
 
+                class b_fr_infantry_esc_fusillier_hk {
+                    name = "Esc. Fusillier HK";
+                    side = 1;
+                    faction = "B_ZV_FR";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGENT";
+                        side = 1;
+                        vehicle = "B_FR_CE_Grenadier_HK_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CAPORAL";
+                        side = 1;
+                        vehicle = "B_FR_CE_Fusilier_HK_AT_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SOLDAT";
+                        side = 1;
+                        vehicle = "B_FR_CE_FusilierAuto_HK_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_FR_CE_Fusilier_Munitions_HK_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CAPORAL";
+                        side = 1;
+                        vehicle = "B_FR_CE_Fusilier_HK_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "SOLDAT";
+                        side = 1;
+                        vehicle = "B_FR_CE_Fusilier_HK_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_FR_CE_Fusilier_HK_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_FR_CE_Infirmier_HK_01";
+                    };
+                };
+
             };
 
             class SpecOps {
@@ -219,9 +276,9 @@ class CfgVehicles {
     class amf_french_soldier_02_CE_OCimport_01 : amf_french_soldier_02_CE { scope = 0; class EventHandlers; };
     class amf_french_soldier_02_CE_OCimport_02 : amf_french_soldier_02_CE_OCimport_01 { class EventHandlers; };
 
-    class amf_french_soldier_01_CE_OD;
-    class amf_french_soldier_01_CE_OD_OCimport_01 : amf_french_soldier_01_CE_OD { scope = 0; class EventHandlers; };
-    class amf_french_soldier_01_CE_OD_OCimport_02 : amf_french_soldier_01_CE_OD_OCimport_01 { class EventHandlers; };
+    class amf_french_soldier_02_CE_2;
+    class amf_french_soldier_02_CE_2_OCimport_01 : amf_french_soldier_02_CE_2 { scope = 0; class EventHandlers; };
+    class amf_french_soldier_02_CE_2_OCimport_02 : amf_french_soldier_02_CE_2_OCimport_01 { class EventHandlers; };
 
     class amf_french_soldier_01_CE_OD_2;
     class amf_french_soldier_01_CE_OD_2_OCimport_01 : amf_french_soldier_01_CE_OD_2 { scope = 0; class EventHandlers; };
@@ -1207,9 +1264,9 @@ class CfgVehicles {
         };
     };
 
-    class amf_french_soldier_02_CE_2;
-    class amf_french_soldier_02_CE_2_OCimport_01 : amf_french_soldier_02_CE_2 { scope = 0; class EventHandlers; };
-    class amf_french_soldier_02_CE_2_OCimport_02 : amf_french_soldier_02_CE_2_OCimport_01 { class EventHandlers; };
+    class amf_french_soldier_01_CE_OD;
+    class amf_french_soldier_01_CE_OD_OCimport_01 : amf_french_soldier_01_CE_OD { scope = 0; class EventHandlers; };
+    class amf_french_soldier_01_CE_OD_OCimport_02 : amf_french_soldier_01_CE_OD_OCimport_01 { class EventHandlers; };
 
 
     class B_FR_EGYPTIAN_Rafale_B_01 : AMF_RAFALE_EGYPTIAN_01_B_OCimport_02 {
@@ -1980,41 +2037,44 @@ class CfgVehicles {
 
     };
 
-    class B_FR_AMF_Fusilier_CE_OD_01 : amf_french_soldier_01_CE_OD_OCimport_02 {
+    class B_FR_CE_Fusilier_Munitions_HK_01 : amf_french_soldier_02_CE_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "[AMF] Fusilier CE/OD";
+        displayName = "[CE] Fusilier Munitions HK";
         side = 1;
         faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "amf_uniform_01_CE_OD";
+        uniformClass = "R3F_uniform_f1";
 
-        linkedItems[] = {"V_PlateCarrier1_rgr","H_HelmetB","ItemMap","ItemRadio","ItemCompass","ItemWatch","NVGoggles"};
-        respawnlinkedItems[] = {"V_PlateCarrier1_rgr","H_HelmetB","ItemMap","ItemRadio","ItemCompass","ItemWatch","NVGoggles"};
+        linkedItems[] = {"FR2035_V_PlateCarrier2_ce","R3F_casque_spectra","ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"FR2035_V_PlateCarrier2_ce","R3F_casque_spectra","ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"arifle_MX_ACO_pointer_F","hgun_P07_F"};
-        respawnWeapons[] = {"arifle_MX_ACO_pointer_F","hgun_P07_F"};
+        weapons[] = {"R3F_HK416M","R3F_PAMAS","Laserdesignator_03"};
+        respawnWeapons[] = {"R3F_HK416M","R3F_PAMAS","Laserdesignator_03"};
 
-        magazines[] = {"30Rnd_65x39_caseless_mag","16Rnd_9x21_Mag","30Rnd_65x39_caseless_mag","16Rnd_9x21_Mag"};
-        respawnMagazines[] = {"30Rnd_65x39_caseless_mag","16Rnd_9x21_Mag","30Rnd_65x39_caseless_mag","16Rnd_9x21_Mag"};
+        magazines[] = {"R3F_30Rnd_556x45_HK416","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_30Rnd_556x45_HK416","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
+        respawnMagazines[] = {"R3F_30Rnd_556x45_HK416","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_30Rnd_556x45_HK416","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
 
-        ALiVE_orbatCreator_loadout[] = {{"arifle_MX_ACO_pointer_F","","acc_pointer_IR","optic_Aco",{"30Rnd_65x39_caseless_mag",30},{},""},{},{"hgun_P07_F","","","",{"16Rnd_9x21_Mag",17},{},""},{"amf_uniform_01_CE_OD",{{"FirstAidKit",1},{"30Rnd_65x39_caseless_mag",1,30}}},{"V_PlateCarrier1_rgr",{{"30Rnd_65x39_caseless_mag",8,30},{"16Rnd_9x21_Mag",2,17},{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"Chemlight_green",2,1},{"HandGrenade",2,1}}},{},"H_HelmetB","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","NVGoggles"}};
+        backpack = "FR2035_B_AssaultPack_ce";
+
+        ALiVE_orbatCreator_loadout[] = {{"R3F_HK416M","","acc_pointer_IR","optic_Hamr",{"R3F_30Rnd_556x45_HK416",30},{},"R3F_BIPIED_HK417"},{},{"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},{"R3F_uniform_f1",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},{"FR2035_V_PlateCarrier2_ce",{{"ACE_NVG_Wide_Black",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_30Rnd_556x45_HK416",5,30}}},{"FR2035_B_AssaultPack_ce",{{"R3F_30Rnd_556x45_TRACER_FAMAS",10,30},{"R3F_30Rnd_556x45_FAMAS",5,30}}},"R3F_casque_spectra","",{"Laserdesignator_03","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'FR2035_Insignia_France'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_insignia = "FR2035_Insignia_France";
 
     };
 
@@ -6195,44 +6255,43 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Fusilier_Munitions_HK_01 : amf_french_soldier_02_CE_2_OCimport_02 {
+    class B_FR_CE_Infirmier_HK_01 : amf_french_soldier_01_CE_OD_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "[CE] Fusilier Munitions HK";
+        displayName = "[CE] Infirmier HK";
         side = 1;
         faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "R3F_uniform_f1";
+        uniformClass = "R3F_uniform_urr_medic";
 
         linkedItems[] = {"FR2035_V_PlateCarrier2_ce","R3F_casque_spectra","ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"FR2035_V_PlateCarrier2_ce","R3F_casque_spectra","ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"R3F_HK416M","R3F_PAMAS","Laserdesignator_03"};
-        respawnWeapons[] = {"R3F_HK416M","R3F_PAMAS","Laserdesignator_03"};
+        weapons[] = {"R3F_HK416M","R3F_PAMAS","Laserdesignator_01_khk_F"};
+        respawnWeapons[] = {"R3F_HK416M","R3F_PAMAS","Laserdesignator_01_khk_F"};
 
         magazines[] = {"R3F_30Rnd_556x45_HK416","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_30Rnd_556x45_HK416","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
         respawnMagazines[] = {"R3F_30Rnd_556x45_HK416","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_30Rnd_556x45_HK416","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
 
-        backpack = "FR2035_B_AssaultPack_ce";
+        backpack = "R3F_sac_moyen_medic_CE";
 
-        ALiVE_orbatCreator_loadout[] = {{"R3F_HK416M","","acc_pointer_IR","optic_Hamr",{"R3F_30Rnd_556x45_HK416",30},{},"R3F_BIPIED_HK417"},{},{"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},{"R3F_uniform_f1",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},{"FR2035_V_PlateCarrier2_ce",{{"ACE_NVG_Wide_Black",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_30Rnd_556x45_HK416",5,30}}},{"FR2035_B_AssaultPack_ce",{{"R3F_30Rnd_556x45_TRACER_FAMAS",10,30},{"R3F_30Rnd_556x45_FAMAS",5,30}}},"R3F_casque_spectra","",{"Laserdesignator_03","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"R3F_HK416M","","","optic_Hamr",{"R3F_30Rnd_556x45_HK416",30},{},""},{},{"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},{"R3F_uniform_urr_medic",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},{"FR2035_V_PlateCarrier2_ce",{{"ACE_NVG_Wide_Black",1},{"acc_pointer_IR",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_30Rnd_556x45_HK416",2,30},{"R3F_30Rnd_556x45_TRACER_HK416",3,30}}},{"R3F_sac_moyen_medic_CE",{{"ACE_epinephrine",20},{"ACE_adenosine",5},{"ACE_morphine",20},{"ACE_packingBandage",20},{"ACE_elasticBandage",20},{"ACE_EarPlugs",5},{"ACE_tourniquet",5},{"ACE_splint",5},{"ACE_quikclot",5},{"ACE_salineIV",4},{"ACE_salineIV_500",5},{"ACE_surgicalKit",1}}},"R3F_casque_spectra","",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'FR2035_Insignia_France'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_insignia = "FR2035_Insignia_France";
 
     };
 
