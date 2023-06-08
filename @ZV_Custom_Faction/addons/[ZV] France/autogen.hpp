@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class B_FRzv {
+    class B_ZV_FR {
         displayName = "[ZV] France";
         side = 1;
         flag = "\A3\ui_f\data\map\markers\flags\France_ca.paa";
@@ -17,7 +17,7 @@ class CfgFactionClasses {
 class CfgGroups {
     class WEST {
 
-        class B_FRzv {
+        class B_ZV_FR {
             name = "[ZV] France";
 
             class Infantry {
@@ -83,8 +83,8 @@ class CfgVehicles {
 
     class AMF_RAFALE_EGYPTIAN_01_B;
     class AMF_RAFALE_EGYPTIAN_01_B_OCimport_01 : AMF_RAFALE_EGYPTIAN_01_B { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_RAFALE_EGYPTIAN_01_B_OCimport_02 : AMF_RAFALE_EGYPTIAN_01_B_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_RAFALE_EGYPTIAN_01_B_OCimport_02 : AMF_RAFALE_EGYPTIAN_01_B_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
         };
@@ -92,8 +92,8 @@ class CfgVehicles {
 
     class B_AMF_AMX10_RCR_01_F;
     class B_AMF_AMX10_RCR_01_F_OCimport_01 : B_AMF_AMX10_RCR_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_AMX10_RCR_01_F_OCimport_02 : B_AMF_AMX10_RCR_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_AMX10_RCR_01_F_OCimport_02 : B_AMF_AMX10_RCR_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -101,8 +101,8 @@ class CfgVehicles {
 
     class B_AMF_AMX10_RCR_02_F;
     class B_AMF_AMX10_RCR_02_F_OCimport_01 : B_AMF_AMX10_RCR_02_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_AMX10_RCR_02_F_OCimport_02 : B_AMF_AMX10_RCR_02_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_AMX10_RCR_02_F_OCimport_02 : B_AMF_AMX10_RCR_02_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -110,8 +110,8 @@ class CfgVehicles {
 
     class B_AMF_AMX10_RCR_03_F;
     class B_AMF_AMX10_RCR_03_F_OCimport_01 : B_AMF_AMX10_RCR_03_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_AMX10_RCR_03_F_OCimport_02 : B_AMF_AMX10_RCR_03_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_AMX10_RCR_03_F_OCimport_02 : B_AMF_AMX10_RCR_03_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -119,8 +119,8 @@ class CfgVehicles {
 
     class B_AMF_AMX10_RCR_04_F;
     class B_AMF_AMX10_RCR_04_F_OCimport_01 : B_AMF_AMX10_RCR_04_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_AMX10_RCR_04_F_OCimport_02 : B_AMF_AMX10_RCR_04_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_AMX10_RCR_04_F_OCimport_02 : B_AMF_AMX10_RCR_04_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -128,8 +128,8 @@ class CfgVehicles {
 
     class B_AMF_AMX10_RCR_SEPAR_01_F;
     class B_AMF_AMX10_RCR_SEPAR_01_F_OCimport_01 : B_AMF_AMX10_RCR_SEPAR_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_AMX10_RCR_SEPAR_01_F_OCimport_02 : B_AMF_AMX10_RCR_SEPAR_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_AMX10_RCR_SEPAR_01_F_OCimport_02 : B_AMF_AMX10_RCR_SEPAR_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -137,8 +137,8 @@ class CfgVehicles {
 
     class B_AMF_AMX10_RCR_SEPAR_02_F;
     class B_AMF_AMX10_RCR_SEPAR_02_F_OCimport_01 : B_AMF_AMX10_RCR_SEPAR_02_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_AMX10_RCR_SEPAR_02_F_OCimport_02 : B_AMF_AMX10_RCR_SEPAR_02_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_AMX10_RCR_SEPAR_02_F_OCimport_02 : B_AMF_AMX10_RCR_SEPAR_02_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -146,8 +146,8 @@ class CfgVehicles {
 
     class B_AMF_AMX10_RCR_SEPAR_03_F;
     class B_AMF_AMX10_RCR_SEPAR_03_F_OCimport_01 : B_AMF_AMX10_RCR_SEPAR_03_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_AMX10_RCR_SEPAR_03_F_OCimport_02 : B_AMF_AMX10_RCR_SEPAR_03_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_AMX10_RCR_SEPAR_03_F_OCimport_02 : B_AMF_AMX10_RCR_SEPAR_03_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -155,8 +155,8 @@ class CfgVehicles {
 
     class B_AMF_AMX10_RCR_SEPAR_04_F;
     class B_AMF_AMX10_RCR_SEPAR_04_F_OCimport_01 : B_AMF_AMX10_RCR_SEPAR_04_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_AMX10_RCR_SEPAR_04_F_OCimport_02 : B_AMF_AMX10_RCR_SEPAR_04_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_AMX10_RCR_SEPAR_04_F_OCimport_02 : B_AMF_AMX10_RCR_SEPAR_04_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -360,8 +360,8 @@ class CfgVehicles {
 
     class amf_cougar;
     class amf_cougar_OCimport_01 : amf_cougar { scope = 0; class EventHandlers; class Turrets; };
-    class amf_cougar_OCimport_02 : amf_cougar_OCimport_01 { 
-        class EventHandlers; 
+    class amf_cougar_OCimport_02 : amf_cougar_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
             class CargoTurret_01;
@@ -373,8 +373,8 @@ class CfgVehicles {
 
     class AMF_EBRC_CE_01;
     class AMF_EBRC_CE_01_OCimport_01 : AMF_EBRC_CE_01 { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_EBRC_CE_01_OCimport_02 : AMF_EBRC_CE_01_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_EBRC_CE_01_OCimport_02 : AMF_EBRC_CE_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -382,8 +382,8 @@ class CfgVehicles {
 
     class AMF_EBRC_TDF_01;
     class AMF_EBRC_TDF_01_OCimport_01 : AMF_EBRC_TDF_01 { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_EBRC_TDF_01_OCimport_02 : AMF_EBRC_TDF_01_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_EBRC_TDF_01_OCimport_02 : AMF_EBRC_TDF_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -391,8 +391,8 @@ class CfgVehicles {
 
     class AMF_EBRC_ONU_01;
     class AMF_EBRC_ONU_01_OCimport_01 : AMF_EBRC_ONU_01 { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_EBRC_ONU_01_OCimport_02 : AMF_EBRC_ONU_01_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_EBRC_ONU_01_OCimport_02 : AMF_EBRC_ONU_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -400,8 +400,8 @@ class CfgVehicles {
 
     class AMF_EBRC_OD_01;
     class AMF_EBRC_OD_01_OCimport_01 : AMF_EBRC_OD_01 { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_EBRC_OD_01_OCimport_02 : AMF_EBRC_OD_01_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_EBRC_OD_01_OCimport_02 : AMF_EBRC_OD_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -469,8 +469,8 @@ class CfgVehicles {
 
     class B_AMF_TANK_01;
     class B_AMF_TANK_01_OCimport_01 : B_AMF_TANK_01 { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_TANK_01_OCimport_02 : B_AMF_TANK_01_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_TANK_01_OCimport_02 : B_AMF_TANK_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -478,8 +478,8 @@ class CfgVehicles {
 
     class B_AMF_TANK_TDF_01_F;
     class B_AMF_TANK_TDF_01_F_OCimport_01 : B_AMF_TANK_TDF_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_TANK_TDF_01_F_OCimport_02 : B_AMF_TANK_TDF_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_TANK_TDF_01_F_OCimport_02 : B_AMF_TANK_TDF_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -487,8 +487,8 @@ class CfgVehicles {
 
     class B_AMF_TANK_DA_01_F;
     class B_AMF_TANK_DA_01_F_OCimport_01 : B_AMF_TANK_DA_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_TANK_DA_01_F_OCimport_02 : B_AMF_TANK_DA_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_TANK_DA_01_F_OCimport_02 : B_AMF_TANK_DA_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -496,8 +496,8 @@ class CfgVehicles {
 
     class B_AMF_TANK_ONU_01_F;
     class B_AMF_TANK_ONU_01_F_OCimport_01 : B_AMF_TANK_ONU_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_TANK_ONU_01_F_OCimport_02 : B_AMF_TANK_ONU_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_TANK_ONU_01_F_OCimport_02 : B_AMF_TANK_ONU_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -505,8 +505,8 @@ class CfgVehicles {
 
     class B_AMF_TANK_FORAD_01_F;
     class B_AMF_TANK_FORAD_01_F_OCimport_01 : B_AMF_TANK_FORAD_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_TANK_FORAD_01_F_OCimport_02 : B_AMF_TANK_FORAD_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_TANK_FORAD_01_F_OCimport_02 : B_AMF_TANK_FORAD_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -514,8 +514,8 @@ class CfgVehicles {
 
     class B_AMF_TANK_CE_02_F;
     class B_AMF_TANK_CE_02_F_OCimport_01 : B_AMF_TANK_CE_02_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_TANK_CE_02_F_OCimport_02 : B_AMF_TANK_CE_02_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_TANK_CE_02_F_OCimport_02 : B_AMF_TANK_CE_02_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -523,8 +523,8 @@ class CfgVehicles {
 
     class B_AMF_TANK_TDF_02_F;
     class B_AMF_TANK_TDF_02_F_OCimport_01 : B_AMF_TANK_TDF_02_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_TANK_TDF_02_F_OCimport_02 : B_AMF_TANK_TDF_02_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_TANK_TDF_02_F_OCimport_02 : B_AMF_TANK_TDF_02_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -532,8 +532,8 @@ class CfgVehicles {
 
     class B_AMF_TANK_ONU_02_F;
     class B_AMF_TANK_ONU_02_F_OCimport_01 : B_AMF_TANK_ONU_02_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_TANK_ONU_02_F_OCimport_02 : B_AMF_TANK_ONU_02_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_TANK_ONU_02_F_OCimport_02 : B_AMF_TANK_ONU_02_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -541,8 +541,8 @@ class CfgVehicles {
 
     class AMF_TVGuided_mmp_F;
     class AMF_TVGuided_mmp_F_OCimport_01 : AMF_TVGuided_mmp_F { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_TVGuided_mmp_F_OCimport_02 : AMF_TVGuided_mmp_F_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_TVGuided_mmp_F_OCimport_02 : AMF_TVGuided_mmp_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -550,8 +550,8 @@ class CfgVehicles {
 
     class AMF_WiredGuided_mmp_F;
     class AMF_WiredGuided_mmp_F_OCimport_01 : AMF_WiredGuided_mmp_F { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_WiredGuided_mmp_F_OCimport_02 : AMF_WiredGuided_mmp_F_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_WiredGuided_mmp_F_OCimport_02 : AMF_WiredGuided_mmp_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -559,8 +559,8 @@ class CfgVehicles {
 
     class amf_nh90_tth_cargo;
     class amf_nh90_tth_cargo_OCimport_01 : amf_nh90_tth_cargo { scope = 0; class EventHandlers; class Turrets; };
-    class amf_nh90_tth_cargo_OCimport_02 : amf_nh90_tth_cargo_OCimport_01 { 
-        class EventHandlers; 
+    class amf_nh90_tth_cargo_OCimport_02 : amf_nh90_tth_cargo_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
         };
@@ -568,8 +568,8 @@ class CfgVehicles {
 
     class amf_nh90_tth_transport;
     class amf_nh90_tth_transport_OCimport_01 : amf_nh90_tth_transport { scope = 0; class EventHandlers; class Turrets; };
-    class amf_nh90_tth_transport_OCimport_02 : amf_nh90_tth_transport_OCimport_01 { 
-        class EventHandlers; 
+    class amf_nh90_tth_transport_OCimport_02 : amf_nh90_tth_transport_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
             class CargoTurret_01;
@@ -579,8 +579,8 @@ class CfgVehicles {
 
     class AMF_panther_FRA;
     class AMF_panther_FRA_OCimport_01 : AMF_panther_FRA { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_panther_FRA_OCimport_02 : AMF_panther_FRA_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_panther_FRA_OCimport_02 : AMF_panther_FRA_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class BRAF_CopilotTurret;
         };
@@ -592,8 +592,8 @@ class CfgVehicles {
 
     class B_AMF_PLANE_TRANSPORT_01_F;
     class B_AMF_PLANE_TRANSPORT_01_F_OCimport_01 : B_AMF_PLANE_TRANSPORT_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_PLANE_TRANSPORT_01_F_OCimport_02 : B_AMF_PLANE_TRANSPORT_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_PLANE_TRANSPORT_01_F_OCimport_02 : B_AMF_PLANE_TRANSPORT_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
         };
@@ -601,8 +601,8 @@ class CfgVehicles {
 
     class amf_pvp_01_top_CE_f;
     class amf_pvp_01_top_CE_f_OCimport_01 : amf_pvp_01_top_CE_f { scope = 0; class EventHandlers; class Turrets; };
-    class amf_pvp_01_top_CE_f_OCimport_02 : amf_pvp_01_top_CE_f_OCimport_01 { 
-        class EventHandlers; 
+    class amf_pvp_01_top_CE_f_OCimport_02 : amf_pvp_01_top_CE_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -610,8 +610,8 @@ class CfgVehicles {
 
     class amf_pvp_01_top_DA_f;
     class amf_pvp_01_top_DA_f_OCimport_01 : amf_pvp_01_top_DA_f { scope = 0; class EventHandlers; class Turrets; };
-    class amf_pvp_01_top_DA_f_OCimport_02 : amf_pvp_01_top_DA_f_OCimport_01 { 
-        class EventHandlers; 
+    class amf_pvp_01_top_DA_f_OCimport_02 : amf_pvp_01_top_DA_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -619,8 +619,8 @@ class CfgVehicles {
 
     class amf_pvp_01_top_ONU_f;
     class amf_pvp_01_top_ONU_f_OCimport_01 : amf_pvp_01_top_ONU_f { scope = 0; class EventHandlers; class Turrets; };
-    class amf_pvp_01_top_ONU_f_OCimport_02 : amf_pvp_01_top_ONU_f_OCimport_01 { 
-        class EventHandlers; 
+    class amf_pvp_01_top_ONU_f_OCimport_02 : amf_pvp_01_top_ONU_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -628,8 +628,8 @@ class CfgVehicles {
 
     class amf_pvp_01_top_TDF_f;
     class amf_pvp_01_top_TDF_f_OCimport_01 : amf_pvp_01_top_TDF_f { scope = 0; class EventHandlers; class Turrets; };
-    class amf_pvp_01_top_TDF_f_OCimport_02 : amf_pvp_01_top_TDF_f_OCimport_01 { 
-        class EventHandlers; 
+    class amf_pvp_01_top_TDF_f_OCimport_02 : amf_pvp_01_top_TDF_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -637,8 +637,8 @@ class CfgVehicles {
 
     class amf_pvp_01_mag_CE_f;
     class amf_pvp_01_mag_CE_f_OCimport_01 : amf_pvp_01_mag_CE_f { scope = 0; class EventHandlers; class Turrets; };
-    class amf_pvp_01_mag_CE_f_OCimport_02 : amf_pvp_01_mag_CE_f_OCimport_01 { 
-        class EventHandlers; 
+    class amf_pvp_01_mag_CE_f_OCimport_02 : amf_pvp_01_mag_CE_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -646,8 +646,8 @@ class CfgVehicles {
 
     class amf_pvp_01_mag_DA_f;
     class amf_pvp_01_mag_DA_f_OCimport_01 : amf_pvp_01_mag_DA_f { scope = 0; class EventHandlers; class Turrets; };
-    class amf_pvp_01_mag_DA_f_OCimport_02 : amf_pvp_01_mag_DA_f_OCimport_01 { 
-        class EventHandlers; 
+    class amf_pvp_01_mag_DA_f_OCimport_02 : amf_pvp_01_mag_DA_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -655,8 +655,8 @@ class CfgVehicles {
 
     class amf_pvp_01_mag_ONU_f;
     class amf_pvp_01_mag_ONU_f_OCimport_01 : amf_pvp_01_mag_ONU_f { scope = 0; class EventHandlers; class Turrets; };
-    class amf_pvp_01_mag_ONU_f_OCimport_02 : amf_pvp_01_mag_ONU_f_OCimport_01 { 
-        class EventHandlers; 
+    class amf_pvp_01_mag_ONU_f_OCimport_02 : amf_pvp_01_mag_ONU_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -664,8 +664,8 @@ class CfgVehicles {
 
     class amf_pvp_01_mag_TDF_f;
     class amf_pvp_01_mag_TDF_f_OCimport_01 : amf_pvp_01_mag_TDF_f { scope = 0; class EventHandlers; class Turrets; };
-    class amf_pvp_01_mag_TDF_f_OCimport_02 : amf_pvp_01_mag_TDF_f_OCimport_01 { 
-        class EventHandlers; 
+    class amf_pvp_01_mag_TDF_f_OCimport_02 : amf_pvp_01_mag_TDF_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -677,8 +677,8 @@ class CfgVehicles {
 
     class AMF_TIGRE_01;
     class AMF_TIGRE_01_OCimport_01 : AMF_TIGRE_01 { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_TIGRE_01_OCimport_02 : AMF_TIGRE_01_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_TIGRE_01_OCimport_02 : AMF_TIGRE_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
             class CargoTurret_01;
@@ -688,8 +688,8 @@ class CfgVehicles {
 
     class B_AMF_VAB_ULTIMA_X8_F;
     class B_AMF_VAB_ULTIMA_X8_F_OCimport_01 : B_AMF_VAB_ULTIMA_X8_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_VAB_ULTIMA_X8_F_OCimport_02 : B_AMF_VAB_ULTIMA_X8_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_VAB_ULTIMA_X8_F_OCimport_02 : B_AMF_VAB_ULTIMA_X8_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class cargoTurret_01;
             class CargoTurret_02;
@@ -700,8 +700,8 @@ class CfgVehicles {
 
     class B_AMF_VAB_ULTIMA_X8_TDF_F;
     class B_AMF_VAB_ULTIMA_X8_TDF_F_OCimport_01 : B_AMF_VAB_ULTIMA_X8_TDF_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_VAB_ULTIMA_X8_TDF_F_OCimport_02 : B_AMF_VAB_ULTIMA_X8_TDF_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_VAB_ULTIMA_X8_TDF_F_OCimport_02 : B_AMF_VAB_ULTIMA_X8_TDF_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class cargoTurret_01;
             class CargoTurret_02;
@@ -712,8 +712,8 @@ class CfgVehicles {
 
     class B_AMF_VAB_ULTIMA_TOP_X8_F;
     class B_AMF_VAB_ULTIMA_TOP_X8_F_OCimport_01 : B_AMF_VAB_ULTIMA_TOP_X8_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_VAB_ULTIMA_TOP_X8_F_OCimport_02 : B_AMF_VAB_ULTIMA_TOP_X8_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_VAB_ULTIMA_TOP_X8_F_OCimport_02 : B_AMF_VAB_ULTIMA_TOP_X8_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -721,8 +721,8 @@ class CfgVehicles {
 
     class B_AMF_VAB_ULTIMA_TOP_X8_TDF_F;
     class B_AMF_VAB_ULTIMA_TOP_X8_TDF_F_OCimport_01 : B_AMF_VAB_ULTIMA_TOP_X8_TDF_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_VAB_ULTIMA_TOP_X8_TDF_F_OCimport_02 : B_AMF_VAB_ULTIMA_TOP_X8_TDF_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_VAB_ULTIMA_TOP_X8_TDF_F_OCimport_02 : B_AMF_VAB_ULTIMA_TOP_X8_TDF_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -730,8 +730,8 @@ class CfgVehicles {
 
     class B_AMF_VAB_ULTIMA_TOP_X8_ONU_F;
     class B_AMF_VAB_ULTIMA_TOP_X8_ONU_F_OCimport_01 : B_AMF_VAB_ULTIMA_TOP_X8_ONU_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_VAB_ULTIMA_TOP_X8_ONU_F_OCimport_02 : B_AMF_VAB_ULTIMA_TOP_X8_ONU_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_VAB_ULTIMA_TOP_X8_ONU_F_OCimport_02 : B_AMF_VAB_ULTIMA_TOP_X8_ONU_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -739,8 +739,8 @@ class CfgVehicles {
 
     class B_AMF_VAB_ULTIMA_X8_ONU_F;
     class B_AMF_VAB_ULTIMA_X8_ONU_F_OCimport_01 : B_AMF_VAB_ULTIMA_X8_ONU_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_VAB_ULTIMA_X8_ONU_F_OCimport_02 : B_AMF_VAB_ULTIMA_X8_ONU_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_VAB_ULTIMA_X8_ONU_F_OCimport_02 : B_AMF_VAB_ULTIMA_X8_ONU_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class cargoTurret_01;
             class CargoTurret_02;
@@ -751,8 +751,8 @@ class CfgVehicles {
 
     class AMF_VBCI_CE_01_F;
     class AMF_VBCI_CE_01_F_OCimport_01 : AMF_VBCI_CE_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBCI_CE_01_F_OCimport_02 : AMF_VBCI_CE_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBCI_CE_01_F_OCimport_02 : AMF_VBCI_CE_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
             class CargoTurret_01;
@@ -762,8 +762,8 @@ class CfgVehicles {
 
     class AMF_VBCI_TDF_01_F;
     class AMF_VBCI_TDF_01_F_OCimport_01 : AMF_VBCI_TDF_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBCI_TDF_01_F_OCimport_02 : AMF_VBCI_TDF_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBCI_TDF_01_F_OCimport_02 : AMF_VBCI_TDF_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
             class CargoTurret_01;
@@ -773,8 +773,8 @@ class CfgVehicles {
 
     class AMF_VBCI_DA_01_F;
     class AMF_VBCI_DA_01_F_OCimport_01 : AMF_VBCI_DA_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBCI_DA_01_F_OCimport_02 : AMF_VBCI_DA_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBCI_DA_01_F_OCimport_02 : AMF_VBCI_DA_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -782,8 +782,8 @@ class CfgVehicles {
 
     class AMF_VBCI_ONU_01_F;
     class AMF_VBCI_ONU_01_F_OCimport_01 : AMF_VBCI_ONU_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBCI_ONU_01_F_OCimport_02 : AMF_VBCI_ONU_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBCI_ONU_01_F_OCimport_02 : AMF_VBCI_ONU_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -791,8 +791,8 @@ class CfgVehicles {
 
     class AMF_VBCI_FORAD_01_F;
     class AMF_VBCI_FORAD_01_F_OCimport_01 : AMF_VBCI_FORAD_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBCI_FORAD_01_F_OCimport_02 : AMF_VBCI_FORAD_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBCI_FORAD_01_F_OCimport_02 : AMF_VBCI_FORAD_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -800,8 +800,8 @@ class CfgVehicles {
 
     class AMF_VBMR_HMG_CE;
     class AMF_VBMR_HMG_CE_OCimport_01 : AMF_VBMR_HMG_CE { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_HMG_CE_OCimport_02 : AMF_VBMR_HMG_CE_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_HMG_CE_OCimport_02 : AMF_VBMR_HMG_CE_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -811,8 +811,8 @@ class CfgVehicles {
 
     class AMF_VBMR_HMG_TDF;
     class AMF_VBMR_HMG_TDF_OCimport_01 : AMF_VBMR_HMG_TDF { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_HMG_TDF_OCimport_02 : AMF_VBMR_HMG_TDF_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_HMG_TDF_OCimport_02 : AMF_VBMR_HMG_TDF_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -822,8 +822,8 @@ class CfgVehicles {
 
     class AMF_VBMR_HMG_OD;
     class AMF_VBMR_HMG_OD_OCimport_01 : AMF_VBMR_HMG_OD { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_HMG_OD_OCimport_02 : AMF_VBMR_HMG_OD_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_HMG_OD_OCimport_02 : AMF_VBMR_HMG_OD_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -833,8 +833,8 @@ class CfgVehicles {
 
     class AMF_VBMR_HMG_ONU;
     class AMF_VBMR_HMG_ONU_OCimport_01 : AMF_VBMR_HMG_ONU { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_HMG_ONU_OCimport_02 : AMF_VBMR_HMG_ONU_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_HMG_ONU_OCimport_02 : AMF_VBMR_HMG_ONU_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -844,8 +844,8 @@ class CfgVehicles {
 
     class AMF_VBMR_GENIE_CE;
     class AMF_VBMR_GENIE_CE_OCimport_01 : AMF_VBMR_GENIE_CE { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_GENIE_CE_OCimport_02 : AMF_VBMR_GENIE_CE_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_GENIE_CE_OCimport_02 : AMF_VBMR_GENIE_CE_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -855,8 +855,8 @@ class CfgVehicles {
 
     class AMF_VBMR_GENIE_TDF;
     class AMF_VBMR_GENIE_TDF_OCimport_01 : AMF_VBMR_GENIE_TDF { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_GENIE_TDF_OCimport_02 : AMF_VBMR_GENIE_TDF_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_GENIE_TDF_OCimport_02 : AMF_VBMR_GENIE_TDF_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -866,8 +866,8 @@ class CfgVehicles {
 
     class AMF_VBMR_GENIE_ONU;
     class AMF_VBMR_GENIE_ONU_OCimport_01 : AMF_VBMR_GENIE_ONU { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_GENIE_ONU_OCimport_02 : AMF_VBMR_GENIE_ONU_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_GENIE_ONU_OCimport_02 : AMF_VBMR_GENIE_ONU_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -877,8 +877,8 @@ class CfgVehicles {
 
     class AMF_VBMR_GENIE_OD;
     class AMF_VBMR_GENIE_OD_OCimport_01 : AMF_VBMR_GENIE_OD { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_GENIE_OD_OCimport_02 : AMF_VBMR_GENIE_OD_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_GENIE_OD_OCimport_02 : AMF_VBMR_GENIE_OD_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -888,8 +888,8 @@ class CfgVehicles {
 
     class AMF_VBMR_COMMANDEMENT_CE;
     class AMF_VBMR_COMMANDEMENT_CE_OCimport_01 : AMF_VBMR_COMMANDEMENT_CE { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_COMMANDEMENT_CE_OCimport_02 : AMF_VBMR_COMMANDEMENT_CE_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_COMMANDEMENT_CE_OCimport_02 : AMF_VBMR_COMMANDEMENT_CE_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -897,8 +897,8 @@ class CfgVehicles {
 
     class AMF_VBMR_COMMANDEMENT_TDF;
     class AMF_VBMR_COMMANDEMENT_TDF_OCimport_01 : AMF_VBMR_COMMANDEMENT_TDF { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_COMMANDEMENT_TDF_OCimport_02 : AMF_VBMR_COMMANDEMENT_TDF_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_COMMANDEMENT_TDF_OCimport_02 : AMF_VBMR_COMMANDEMENT_TDF_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -906,8 +906,8 @@ class CfgVehicles {
 
     class AMF_VBMR_COMMANDEMENT_ONU;
     class AMF_VBMR_COMMANDEMENT_ONU_OCimport_01 : AMF_VBMR_COMMANDEMENT_ONU { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_COMMANDEMENT_ONU_OCimport_02 : AMF_VBMR_COMMANDEMENT_ONU_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_COMMANDEMENT_ONU_OCimport_02 : AMF_VBMR_COMMANDEMENT_ONU_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -915,8 +915,8 @@ class CfgVehicles {
 
     class AMF_VBMR_COMMANDEMENT_OD;
     class AMF_VBMR_COMMANDEMENT_OD_OCimport_01 : AMF_VBMR_COMMANDEMENT_OD { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_COMMANDEMENT_OD_OCimport_02 : AMF_VBMR_COMMANDEMENT_OD_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_COMMANDEMENT_OD_OCimport_02 : AMF_VBMR_COMMANDEMENT_OD_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
         };
@@ -924,8 +924,8 @@ class CfgVehicles {
 
     class AMF_VBMR_SAN_CE;
     class AMF_VBMR_SAN_CE_OCimport_01 : AMF_VBMR_SAN_CE { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_SAN_CE_OCimport_02 : AMF_VBMR_SAN_CE_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_SAN_CE_OCimport_02 : AMF_VBMR_SAN_CE_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_02;
@@ -934,8 +934,8 @@ class CfgVehicles {
 
     class AMF_VBMR_SAN_TDF;
     class AMF_VBMR_SAN_TDF_OCimport_01 : AMF_VBMR_SAN_TDF { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_SAN_TDF_OCimport_02 : AMF_VBMR_SAN_TDF_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_SAN_TDF_OCimport_02 : AMF_VBMR_SAN_TDF_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_02;
@@ -944,8 +944,8 @@ class CfgVehicles {
 
     class AMF_VBMR_SAN_ONU;
     class AMF_VBMR_SAN_ONU_OCimport_01 : AMF_VBMR_SAN_ONU { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_SAN_ONU_OCimport_02 : AMF_VBMR_SAN_ONU_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_SAN_ONU_OCimport_02 : AMF_VBMR_SAN_ONU_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_02;
@@ -954,8 +954,8 @@ class CfgVehicles {
 
     class AMF_VBMR_SAN_OD;
     class AMF_VBMR_SAN_OD_OCimport_01 : AMF_VBMR_SAN_OD { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_SAN_OD_OCimport_02 : AMF_VBMR_SAN_OD_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_SAN_OD_OCimport_02 : AMF_VBMR_SAN_OD_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_02;
@@ -964,8 +964,8 @@ class CfgVehicles {
 
     class AMF_VBMR_L_CE_01;
     class AMF_VBMR_L_CE_01_OCimport_01 : AMF_VBMR_L_CE_01 { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_L_CE_01_OCimport_02 : AMF_VBMR_L_CE_01_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_L_CE_01_OCimport_02 : AMF_VBMR_L_CE_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -975,8 +975,8 @@ class CfgVehicles {
 
     class AMF_VBMR_L_TDF_01;
     class AMF_VBMR_L_TDF_01_OCimport_01 : AMF_VBMR_L_TDF_01 { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_L_TDF_01_OCimport_02 : AMF_VBMR_L_TDF_01_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_L_TDF_01_OCimport_02 : AMF_VBMR_L_TDF_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -986,8 +986,8 @@ class CfgVehicles {
 
     class AMF_VBMR_L_ONU_01;
     class AMF_VBMR_L_ONU_01_OCimport_01 : AMF_VBMR_L_ONU_01 { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_L_ONU_01_OCimport_02 : AMF_VBMR_L_ONU_01_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_L_ONU_01_OCimport_02 : AMF_VBMR_L_ONU_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -997,8 +997,8 @@ class CfgVehicles {
 
     class AMF_VBMR_L_OD_01;
     class AMF_VBMR_L_OD_01_OCimport_01 : AMF_VBMR_L_OD_01 { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_VBMR_L_OD_01_OCimport_02 : AMF_VBMR_L_OD_01_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_VBMR_L_OD_01_OCimport_02 : AMF_VBMR_L_OD_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class Mainturret;
             class CargoTurret_01;
@@ -1008,8 +1008,8 @@ class CfgVehicles {
 
     class B_AMF_Heli_Transport_4RHFS_01_F;
     class B_AMF_Heli_Transport_4RHFS_01_F_OCimport_01 : B_AMF_Heli_Transport_4RHFS_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_Heli_Transport_4RHFS_01_F_OCimport_02 : B_AMF_Heli_Transport_4RHFS_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_Heli_Transport_4RHFS_01_F_OCimport_02 : B_AMF_Heli_Transport_4RHFS_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
             class CargoTurret_01;
@@ -1024,8 +1024,8 @@ class CfgVehicles {
 
     class B_AMF_Heli_Transport_01_F;
     class B_AMF_Heli_Transport_01_F_OCimport_01 : B_AMF_Heli_Transport_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_Heli_Transport_01_F_OCimport_02 : B_AMF_Heli_Transport_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_Heli_Transport_01_F_OCimport_02 : B_AMF_Heli_Transport_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
             class CargoTurret_01;
@@ -1039,8 +1039,8 @@ class CfgVehicles {
 
     class B_AMF_REAPER_dynamicLoadout_F;
     class B_AMF_REAPER_dynamicLoadout_F_OCimport_01 : B_AMF_REAPER_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_AMF_REAPER_dynamicLoadout_F_OCimport_02 : B_AMF_REAPER_dynamicLoadout_F_OCimport_01 { 
-        class EventHandlers; 
+    class B_AMF_REAPER_dynamicLoadout_F_OCimport_02 : B_AMF_REAPER_dynamicLoadout_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -1048,8 +1048,8 @@ class CfgVehicles {
 
     class AMF_gazelle_afte_f;
     class AMF_gazelle_afte_f_OCimport_01 : AMF_gazelle_afte_f { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_gazelle_afte_f_OCimport_02 : AMF_gazelle_afte_f_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_gazelle_afte_f_OCimport_02 : AMF_gazelle_afte_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
             class CargoTurret_01;
@@ -1059,8 +1059,8 @@ class CfgVehicles {
 
     class AMF_gazelle_minigun_f;
     class AMF_gazelle_minigun_f_OCimport_01 : AMF_gazelle_minigun_f { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_gazelle_minigun_f_OCimport_02 : AMF_gazelle_minigun_f_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_gazelle_minigun_f_OCimport_02 : AMF_gazelle_minigun_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
             class RightDoorGun;
@@ -1070,8 +1070,8 @@ class CfgVehicles {
 
     class AMF_gazelle_afte_da_f;
     class AMF_gazelle_afte_da_f_OCimport_01 : AMF_gazelle_afte_da_f { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_gazelle_afte_da_f_OCimport_02 : AMF_gazelle_afte_da_f_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_gazelle_afte_da_f_OCimport_02 : AMF_gazelle_afte_da_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
             class CargoTurret_01;
@@ -1081,8 +1081,8 @@ class CfgVehicles {
 
     class AMF_gazelle_minigun_da_f;
     class AMF_gazelle_minigun_da_f_OCimport_01 : AMF_gazelle_minigun_da_f { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_gazelle_minigun_da_f_OCimport_02 : AMF_gazelle_minigun_da_f_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_gazelle_minigun_da_f_OCimport_02 : AMF_gazelle_minigun_da_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
             class RightDoorGun;
@@ -1092,8 +1092,8 @@ class CfgVehicles {
 
     class AMF_gazelle_afte_olive_f;
     class AMF_gazelle_afte_olive_f_OCimport_01 : AMF_gazelle_afte_olive_f { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_gazelle_afte_olive_f_OCimport_02 : AMF_gazelle_afte_olive_f_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_gazelle_afte_olive_f_OCimport_02 : AMF_gazelle_afte_olive_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
             class CargoTurret_01;
@@ -1103,8 +1103,8 @@ class CfgVehicles {
 
     class AMF_gazelle_minigun_olive_f;
     class AMF_gazelle_minigun_olive_f_OCimport_01 : AMF_gazelle_minigun_olive_f { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_gazelle_minigun_olive_f_OCimport_02 : AMF_gazelle_minigun_olive_f_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_gazelle_minigun_olive_f_OCimport_02 : AMF_gazelle_minigun_olive_f_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
             class RightDoorGun;
@@ -1122,8 +1122,8 @@ class CfgVehicles {
 
     class AMF_RAFALE_B_01_F;
     class AMF_RAFALE_B_01_F_OCimport_01 : AMF_RAFALE_B_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_RAFALE_B_01_F_OCimport_02 : AMF_RAFALE_B_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_RAFALE_B_01_F_OCimport_02 : AMF_RAFALE_B_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
         };
@@ -1159,8 +1159,8 @@ class CfgVehicles {
 
     class AMF_RAFALE_CRO_01_B;
     class AMF_RAFALE_CRO_01_B_OCimport_01 : AMF_RAFALE_CRO_01_B { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_RAFALE_CRO_01_B_OCimport_02 : AMF_RAFALE_CRO_01_B_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_RAFALE_CRO_01_B_OCimport_02 : AMF_RAFALE_CRO_01_B_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
         };
@@ -1168,8 +1168,8 @@ class CfgVehicles {
 
     class AMF_RAFALE_GREEK_01_B;
     class AMF_RAFALE_GREEK_01_B_OCimport_01 : AMF_RAFALE_GREEK_01_B { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_RAFALE_GREEK_01_B_OCimport_02 : AMF_RAFALE_GREEK_01_B_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_RAFALE_GREEK_01_B_OCimport_02 : AMF_RAFALE_GREEK_01_B_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
         };
@@ -1177,8 +1177,8 @@ class CfgVehicles {
 
     class AMF_RAFALE_INDIA_01_B;
     class AMF_RAFALE_INDIA_01_B_OCimport_01 : AMF_RAFALE_INDIA_01_B { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_RAFALE_INDIA_01_B_OCimport_02 : AMF_RAFALE_INDIA_01_B_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_RAFALE_INDIA_01_B_OCimport_02 : AMF_RAFALE_INDIA_01_B_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
         };
@@ -1186,8 +1186,8 @@ class CfgVehicles {
 
     class AMF_RAFALE_INDO_01_B;
     class AMF_RAFALE_INDO_01_B_OCimport_01 : AMF_RAFALE_INDO_01_B { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_RAFALE_INDO_01_B_OCimport_02 : AMF_RAFALE_INDO_01_B_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_RAFALE_INDO_01_B_OCimport_02 : AMF_RAFALE_INDO_01_B_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
         };
@@ -1195,8 +1195,8 @@ class CfgVehicles {
 
     class AMF_RAFALE_ARABIAN_01_B;
     class AMF_RAFALE_ARABIAN_01_B_OCimport_01 : AMF_RAFALE_ARABIAN_01_B { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_RAFALE_ARABIAN_01_B_OCimport_02 : AMF_RAFALE_ARABIAN_01_B_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_RAFALE_ARABIAN_01_B_OCimport_02 : AMF_RAFALE_ARABIAN_01_B_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
         };
@@ -1204,21 +1204,21 @@ class CfgVehicles {
 
     class AMF_RAFALE_QATARIAN_01_B;
     class AMF_RAFALE_QATARIAN_01_B_OCimport_01 : AMF_RAFALE_QATARIAN_01_B { scope = 0; class EventHandlers; class Turrets; };
-    class AMF_RAFALE_QATARIAN_01_B_OCimport_02 : AMF_RAFALE_QATARIAN_01_B_OCimport_01 { 
-        class EventHandlers; 
+    class AMF_RAFALE_QATARIAN_01_B_OCimport_02 : AMF_RAFALE_QATARIAN_01_B_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
         };
     };
 
 
-    class B_FRzv_EGYPTIAN_Rafale_B_01 : AMF_RAFALE_EGYPTIAN_01_B_OCimport_02 {
+    class B_FR_EGYPTIAN_Rafale_B_01 : AMF_RAFALE_EGYPTIAN_01_B_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "EGYPTIAN Rafale B";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
         class Turrets : Turrets {
@@ -1241,13 +1241,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMX_10_RCR_CE_01 : B_AMF_AMX10_RCR_01_F_OCimport_02 {
+    class B_FR_AMX_10_RCR_CE_01 : B_AMF_AMX10_RCR_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "AMX-10 RCR (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -1270,13 +1270,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMX_10_RCR_TDF_01 : B_AMF_AMX10_RCR_02_F_OCimport_02 {
+    class B_FR_AMX_10_RCR_TDF_01 : B_AMF_AMX10_RCR_02_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "AMX-10 RCR (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -1299,13 +1299,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMX_10_RCR_DA_01 : B_AMF_AMX10_RCR_03_F_OCimport_02 {
+    class B_FR_AMX_10_RCR_DA_01 : B_AMF_AMX10_RCR_03_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "AMX-10 RCR (DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -1328,13 +1328,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMX_10_RCR_ONU_01 : B_AMF_AMX10_RCR_04_F_OCimport_02 {
+    class B_FR_AMX_10_RCR_ONU_01 : B_AMF_AMX10_RCR_04_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "AMX-10 RCR (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -1357,13 +1357,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMX_10_RCR_SEPAR_CE_01 : B_AMF_AMX10_RCR_SEPAR_01_F_OCimport_02 {
+    class B_FR_AMX_10_RCR_SEPAR_CE_01 : B_AMF_AMX10_RCR_SEPAR_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "AMX-10 RCR SEPAR (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -1386,13 +1386,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMX_10_RCR_SEPAR_TDF_01 : B_AMF_AMX10_RCR_SEPAR_02_F_OCimport_02 {
+    class B_FR_AMX_10_RCR_SEPAR_TDF_01 : B_AMF_AMX10_RCR_SEPAR_02_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "AMX-10 RCR SEPAR (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -1415,13 +1415,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMX_10_RCR_SEPAR_DA_01 : B_AMF_AMX10_RCR_SEPAR_03_F_OCimport_02 {
+    class B_FR_AMX_10_RCR_SEPAR_DA_01 : B_AMF_AMX10_RCR_SEPAR_03_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "AMX-10 RCR SEPAR (DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -1444,13 +1444,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMX_10_RCR_SEPAR_ONU_01 : B_AMF_AMX10_RCR_SEPAR_04_F_OCimport_02 {
+    class B_FR_AMX_10_RCR_SEPAR_ONU_01 : B_AMF_AMX10_RCR_SEPAR_04_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "AMX-10 RCR SEPAR (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -1473,13 +1473,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_MTP_01 : amf_french_soldier_04_MTP_OCimport_02 {
+    class B_FR_AMF_Fusilier_MTP_01 : amf_french_soldier_04_MTP_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier MTP";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1511,13 +1511,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_MTP_02 : amf_french_soldier_05_MTP_OCimport_02 {
+    class B_FR_AMF_Fusilier_MTP_02 : amf_french_soldier_05_MTP_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier MTP";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1549,13 +1549,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_BLK_01 : amf_french_soldier_04_BLK_OCimport_02 {
+    class B_FR_AMF_Fusilier_BLK_01 : amf_french_soldier_04_BLK_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier BLK";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1587,13 +1587,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_BLK_02 : amf_french_soldier_05_BLK_OCimport_02 {
+    class B_FR_AMF_Fusilier_BLK_02 : amf_french_soldier_05_BLK_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier BLK";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1625,13 +1625,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_TAN_01 : amf_french_soldier_04_TAN_OCimport_02 {
+    class B_FR_AMF_Fusilier_TAN_01 : amf_french_soldier_04_TAN_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier TAN";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1663,13 +1663,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_TAN_02 : amf_french_soldier_05_TAN_OCimport_02 {
+    class B_FR_AMF_Fusilier_TAN_02 : amf_french_soldier_05_TAN_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier TAN";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1701,13 +1701,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_OD_01 : amf_french_soldier_04_OD_OCimport_02 {
+    class B_FR_AMF_Fusilier_OD_01 : amf_french_soldier_04_OD_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier OD";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1739,13 +1739,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_OD_02 : amf_french_soldier_05_OD_OCimport_02 {
+    class B_FR_AMF_Fusilier_OD_02 : amf_french_soldier_05_OD_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier OD";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1777,13 +1777,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_pilote_de_combat_01 : amf_french_combat_pilot_OCimport_02 {
+    class B_FR_AMF_pilote_de_combat_01 : amf_french_combat_pilot_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] pilote de combat";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1815,13 +1815,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_CE_TAN_01 : amf_french_soldier_01_CE_OCimport_02 {
+    class B_FR_AMF_Fusilier_CE_TAN_01 : amf_french_soldier_01_CE_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier CE/TAN";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1853,13 +1853,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_CE_TAN_2_01 : amf_french_soldier_01_CE_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_CE_TAN_2_01 : amf_french_soldier_01_CE_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier CE/TAN 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1891,13 +1891,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_CE_TAN_manches_retrouss_es_01 : amf_french_soldier_02_CE_OCimport_02 {
+    class B_FR_AMF_Fusilier_CE_TAN_manches_retrouss_es_01 : amf_french_soldier_02_CE_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier CE/TAN manches retroussï¿½es";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1929,13 +1929,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_CE_TAN_manches_retrouss_es_2_01 : amf_french_soldier_02_CE_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_CE_TAN_manches_retrouss_es_2_01 : amf_french_soldier_02_CE_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier CE/TAN manches retroussï¿½es 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -1967,13 +1967,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_CE_OD_01 : amf_french_soldier_01_CE_OD_OCimport_02 {
+    class B_FR_AMF_Fusilier_CE_OD_01 : amf_french_soldier_01_CE_OD_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier CE/OD";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2005,13 +2005,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_CE_OD_2_01 : amf_french_soldier_01_CE_OD_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_CE_OD_2_01 : amf_french_soldier_01_CE_OD_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier CE/OD 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2043,13 +2043,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_CE_OD_manches_retrouss_es_01 : amf_french_soldier_02_CE_OD_OCimport_02 {
+    class B_FR_AMF_Fusilier_CE_OD_manches_retrouss_es_01 : amf_french_soldier_02_CE_OD_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier CE/OD manches retroussï¿½es";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2081,13 +2081,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_CE_OD_manches_retrouss_es_2_01 : amf_french_soldier_02_CE_OD_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_CE_OD_manches_retrouss_es_2_01 : amf_french_soldier_02_CE_OD_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier CE/OD manches retroussï¿½es 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2119,13 +2119,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_DA_01 : amf_french_soldier_01_DA_OCimport_02 {
+    class B_FR_AMF_Fusilier_DA_01 : amf_french_soldier_01_DA_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier DA";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2157,13 +2157,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_DA_2_01 : amf_french_soldier_01_DA_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_DA_2_01 : amf_french_soldier_01_DA_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier DA 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2195,13 +2195,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_TUNDRA_01 : amf_french_soldier_01_TUNDRA_OCimport_02 {
+    class B_FR_AMF_Fusilier_TUNDRA_01 : amf_french_soldier_01_TUNDRA_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier TUNDRA";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2233,13 +2233,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_TUNDRA_2_01 : amf_french_soldier_01_TUNDRA_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_TUNDRA_2_01 : amf_french_soldier_01_TUNDRA_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier TUNDRA 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2271,13 +2271,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_DA_manches_retrouss_es_01 : amf_french_soldier_02_DA_OCimport_02 {
+    class B_FR_AMF_Fusilier_DA_manches_retrouss_es_01 : amf_french_soldier_02_DA_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier DA manches retroussï¿½es";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2309,13 +2309,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_DA_manches_retrouss_es_2_01 : amf_french_soldier_02_DA_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_DA_manches_retrouss_es_2_01 : amf_french_soldier_02_DA_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier DA manches retroussï¿½es 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2347,13 +2347,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_SE_01 : amf_french_soldier_01_S_OCimport_02 {
+    class B_FR_AMF_Fusilier_SE_01 : amf_french_soldier_01_S_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier SE";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2385,13 +2385,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_SE_2_01 : amf_french_soldier_01_S_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_SE_2_01 : amf_french_soldier_01_S_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier SE 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2423,13 +2423,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_SE_manches_retrouss_es_01 : amf_french_soldier_02_S_OCimport_02 {
+    class B_FR_AMF_Fusilier_SE_manches_retrouss_es_01 : amf_french_soldier_02_S_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier SE manches retroussï¿½es";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2461,13 +2461,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_SE_manches_retrouss_es_2_01 : amf_french_soldier_02_S_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_SE_manches_retrouss_es_2_01 : amf_french_soldier_02_S_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier SE manches retroussï¿½es 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2499,13 +2499,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_CE_01 : amf_french_soldier_03_CE_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_CE_01 : amf_french_soldier_03_CE_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 CE";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2537,13 +2537,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_CE_2_01 : amf_french_soldier_03_CE_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_CE_2_01 : amf_french_soldier_03_CE_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 CE 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2575,13 +2575,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_BME_TAN_01 : amf_french_soldier_01_BME_OCimport_02 {
+    class B_FR_AMF_Fusilier_BME_TAN_01 : amf_french_soldier_01_BME_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier BME/TAN";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2613,13 +2613,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_BME_TAN_2_01 : amf_french_soldier_01_BME_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_BME_TAN_2_01 : amf_french_soldier_01_BME_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier BME/TAN 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2651,13 +2651,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_BME_TAN_manches_retrouss_es_01 : amf_french_soldier_02_BME_OCimport_02 {
+    class B_FR_AMF_Fusilier_BME_TAN_manches_retrouss_es_01 : amf_french_soldier_02_BME_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier BME/TAN manches retroussï¿½es";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2689,13 +2689,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_BME_TAN_manches_retrouss_es_2_01 : amf_french_soldier_02_BME_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_BME_TAN_manches_retrouss_es_2_01 : amf_french_soldier_02_BME_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier BME/TAN manches retroussï¿½es 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2727,13 +2727,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_BME_01 : amf_french_soldier_03_BME_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_BME_01 : amf_french_soldier_03_BME_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 BME";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2765,13 +2765,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_BME_2_01 : amf_french_soldier_03_BME_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_BME_2_01 : amf_french_soldier_03_BME_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 BME 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2803,13 +2803,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_MTP_01 : amf_french_soldier_03_MTP_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_MTP_01 : amf_french_soldier_03_MTP_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 MTP";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2841,13 +2841,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_MTP_2_01 : amf_french_soldier_03_MTP_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_MTP_2_01 : amf_french_soldier_03_MTP_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 MTP 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2879,13 +2879,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_DA_01 : amf_french_soldier_03_DA_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_DA_01 : amf_french_soldier_03_DA_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 DA";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2917,13 +2917,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_DA_2_01 : amf_french_soldier_03_DA_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_DA_2_01 : amf_french_soldier_03_DA_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 DA 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2955,13 +2955,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_TUNDRA_01 : amf_french_soldier_03_TUNDRA_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_TUNDRA_01 : amf_french_soldier_03_TUNDRA_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 TUNDRA";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2993,13 +2993,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_TUNDRA_2_01 : amf_french_soldier_03_TUNDRA_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_TUNDRA_2_01 : amf_french_soldier_03_TUNDRA_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 TUNDRA 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -3031,13 +3031,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_Serval_01 : amf_french_soldier_03_S_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_Serval_01 : amf_french_soldier_03_S_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 Serval";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -3069,13 +3069,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_F3_Serval_2_01 : amf_french_soldier_03_S_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_F3_Serval_2_01 : amf_french_soldier_03_S_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier F3 Serval 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -3107,13 +3107,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_Felin_CE_01 : amf_french_soldier_04_CE_OCimport_02 {
+    class B_FR_AMF_Fusilier_Felin_CE_01 : amf_french_soldier_04_CE_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier Felin CE";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -3145,13 +3145,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_Felin_CE_2_01 : amf_french_soldier_04_CE_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_Felin_CE_2_01 : amf_french_soldier_04_CE_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier Felin CE 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -3183,13 +3183,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_Felin_DA_01 : amf_french_soldier_04_DA_OCimport_02 {
+    class B_FR_AMF_Fusilier_Felin_DA_01 : amf_french_soldier_04_DA_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier Felin DA";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -3221,13 +3221,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_Felin_DA_2_01 : amf_french_soldier_04_DA_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_Felin_DA_2_01 : amf_french_soldier_04_DA_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier Felin DA 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -3259,13 +3259,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_Felin_S_01 : amf_french_soldier_04_S_OCimport_02 {
+    class B_FR_AMF_Fusilier_Felin_S_01 : amf_french_soldier_04_S_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier Felin S";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -3297,13 +3297,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AMF_Fusilier_Felin_S2_01 : amf_french_soldier_04_S_2_OCimport_02 {
+    class B_FR_AMF_Fusilier_Felin_S2_01 : amf_french_soldier_04_S_2_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "[AMF] Fusilier Felin S 2";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -3335,13 +3335,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AS532_Cougar_01 : amf_cougar_OCimport_02 {
+    class B_FR_AS532_Cougar_01 : amf_cougar_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "AS532 Cougar";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -3368,13 +3368,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_EBRC_Jaguar_01 : AMF_EBRC_CE_01_OCimport_02 {
+    class B_FR_EBRC_Jaguar_01 : AMF_EBRC_CE_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "EBRC Jaguar";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -3397,13 +3397,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_EBRC_Jaguar_TDF_01 : AMF_EBRC_TDF_01_OCimport_02 {
+    class B_FR_EBRC_Jaguar_TDF_01 : AMF_EBRC_TDF_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "EBRC Jaguar (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -3426,13 +3426,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_EBRC_Jaguar_ONU_01 : AMF_EBRC_ONU_01_OCimport_02 {
+    class B_FR_EBRC_Jaguar_ONU_01 : AMF_EBRC_ONU_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "EBRC Jaguar (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -3455,13 +3455,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_EBRC_Jaguar_OD_01 : AMF_EBRC_OD_01_OCimport_02 {
+    class B_FR_EBRC_Jaguar_OD_01 : AMF_EBRC_OD_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "EBRC Jaguar (OD)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -3484,13 +3484,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Transport_de_troupes_CE_01 : AMF_GBC180_PERS_01_OCimport_02 {
+    class B_FR_GBC_180_Transport_de_troupes_CE_01 : AMF_GBC180_PERS_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 Transport de troupes (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3508,13 +3508,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Transport_de_troupes_TDF_01 : AMF_GBC180_PERS_02_OCimport_02 {
+    class B_FR_GBC_180_Transport_de_troupes_TDF_01 : AMF_GBC180_PERS_02_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 Transport de troupes (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3532,13 +3532,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Transport_de_troupes_DA_01 : AMF_GBC180_PERS_03_OCimport_02 {
+    class B_FR_GBC_180_Transport_de_troupes_DA_01 : AMF_GBC180_PERS_03_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 Transport de troupes (DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3556,13 +3556,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Mecano_CE_01 : AMF_GBC180_MECA_01_OCimport_02 {
+    class B_FR_GBC_180_Mecano_CE_01 : AMF_GBC180_MECA_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 Mecano (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3580,13 +3580,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Mecano_TDF_01 : AMF_GBC180_MECA_02_OCimport_02 {
+    class B_FR_GBC_180_Mecano_TDF_01 : AMF_GBC180_MECA_02_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 Mecano (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3604,13 +3604,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Mecano_DA_01 : AMF_GBC180_MECA_03_OCimport_02 {
+    class B_FR_GBC_180_Mecano_DA_01 : AMF_GBC180_MECA_03_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 Mecano (DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3628,13 +3628,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_ViV_CE_01 : AMF_GBC180_ViV_OCimport_02 {
+    class B_FR_GBC_180_ViV_CE_01 : AMF_GBC180_ViV_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 (ViV CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3652,13 +3652,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_ViV_TDF_01 : AMF_GBC180_ViV_02_OCimport_02 {
+    class B_FR_GBC_180_ViV_TDF_01 : AMF_GBC180_ViV_02_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 (ViV TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3676,13 +3676,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_ViV_DA_01 : AMF_GBC180_ViV_03_OCimport_02 {
+    class B_FR_GBC_180_ViV_DA_01 : AMF_GBC180_ViV_03_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 (ViV DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3700,13 +3700,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Ammo_CE_01 : AMF_GBC180_AmmoTruck_OCimport_02 {
+    class B_FR_GBC_180_Ammo_CE_01 : AMF_GBC180_AmmoTruck_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 (Ammo CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3724,13 +3724,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Ammo_TDF_01 : AMF_GBC180_AmmoTruck_02_OCimport_02 {
+    class B_FR_GBC_180_Ammo_TDF_01 : AMF_GBC180_AmmoTruck_02_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 (Ammo TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3748,13 +3748,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Ammo_DA_01 : AMF_GBC180_AmmoTruck_03_OCimport_02 {
+    class B_FR_GBC_180_Ammo_DA_01 : AMF_GBC180_AmmoTruck_03_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 (Ammo DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
 
@@ -3772,13 +3772,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Flatbed_CE_01 : AMF_GBC180_PLATEAU_01_OCimport_02 {
+    class B_FR_GBC_180_Flatbed_CE_01 : AMF_GBC180_PLATEAU_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 Flatbed (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "Civilian";
 
 
@@ -3796,13 +3796,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Flatbed_TDF_01 : AMF_GBC180_PLATEAU_02_OCimport_02 {
+    class B_FR_GBC_180_Flatbed_TDF_01 : AMF_GBC180_PLATEAU_02_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 Flatbed (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "Civilian";
 
 
@@ -3820,13 +3820,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_GBC_180_Flatbed_DA_01 : AMF_GBC180_PLATEAU_03_OCimport_02 {
+    class B_FR_GBC_180_Flatbed_DA_01 : AMF_GBC180_PLATEAU_03_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "GBC 180 Flatbed (DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "Civilian";
 
 
@@ -3844,13 +3844,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Leclerc_CE_01 : B_AMF_TANK_01_OCimport_02 {
+    class B_FR_Leclerc_CE_01 : B_AMF_TANK_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Leclerc (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -3873,13 +3873,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Leclerc_TDF_01 : B_AMF_TANK_TDF_01_F_OCimport_02 {
+    class B_FR_Leclerc_TDF_01 : B_AMF_TANK_TDF_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Leclerc (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -3902,13 +3902,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Leclerc_DA_01 : B_AMF_TANK_DA_01_F_OCimport_02 {
+    class B_FR_Leclerc_DA_01 : B_AMF_TANK_DA_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Leclerc (DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -3931,13 +3931,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Leclerc_ONU_01 : B_AMF_TANK_ONU_01_F_OCimport_02 {
+    class B_FR_Leclerc_ONU_01 : B_AMF_TANK_ONU_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Leclerc (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -3960,13 +3960,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Leclerc_FORAD_01 : B_AMF_TANK_FORAD_01_F_OCimport_02 {
+    class B_FR_Leclerc_FORAD_01 : B_AMF_TANK_FORAD_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Leclerc (FORAD)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -3989,13 +3989,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Leclerc_XLR_CE_01 : B_AMF_TANK_CE_02_F_OCimport_02 {
+    class B_FR_Leclerc_XLR_CE_01 : B_AMF_TANK_CE_02_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Leclerc XLR (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -4018,13 +4018,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Leclerc_XLR_TDF_01 : B_AMF_TANK_TDF_02_F_OCimport_02 {
+    class B_FR_Leclerc_XLR_TDF_01 : B_AMF_TANK_TDF_02_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Leclerc XLR (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -4047,13 +4047,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Leclerc_XLR_ONU_01 : B_AMF_TANK_ONU_02_F_OCimport_02 {
+    class B_FR_Leclerc_XLR_ONU_01 : B_AMF_TANK_ONU_02_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Leclerc XLR (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_crew_F";
 
         class Turrets : Turrets {
@@ -4076,13 +4076,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_MMP_TV_guided_01 : AMF_TVGuided_mmp_F_OCimport_02 {
+    class B_FR_MMP_TV_guided_01 : AMF_TVGuided_mmp_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "MMP TV guided";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_f";
 
         class Turrets : Turrets {
@@ -4105,13 +4105,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_MMP_statique_Filaire_01 : AMF_WiredGuided_mmp_F_OCimport_02 {
+    class B_FR_MMP_statique_Filaire_01 : AMF_WiredGuided_mmp_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "MMP statique Filaire";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_f";
 
         class Turrets : Turrets {
@@ -4134,13 +4134,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_NH90_TTH_Cargo_01 : amf_nh90_tth_cargo_OCimport_02 {
+    class B_FR_NH90_TTH_Cargo_01 : amf_nh90_tth_cargo_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "NH90 TTH (Cargo)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -4163,13 +4163,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_NH90_TTH_Transport_01 : amf_nh90_tth_transport_OCimport_02 {
+    class B_FR_NH90_TTH_Transport_01 : amf_nh90_tth_transport_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "NH90 TTH (Transport)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -4194,13 +4194,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_AS565_Panther_Marine_Nationale_01 : AMF_panther_FRA_OCimport_02 {
+    class B_FR_AS565_Panther_Marine_Nationale_01 : AMF_panther_FRA_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "AS565 Panther Marine Nationale";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -4223,13 +4223,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_MIRAGE_2000_5F_01 : B_AMF_PLANE_FIGHTER_02_F_OCimport_02 {
+    class B_FR_MIRAGE_2000_5F_01 : B_AMF_PLANE_FIGHTER_02_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "MIRAGE 2000-5F";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
 
@@ -4247,13 +4247,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_CASA_CN_235_01 : B_AMF_PLANE_TRANSPORT_01_F_OCimport_02 {
+    class B_FR_CASA_CN_235_01 : B_AMF_PLANE_TRANSPORT_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "CASA CN-235";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
         class Turrets : Turrets {
@@ -4276,13 +4276,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_PVP_WASP_CE_01 : amf_pvp_01_top_CE_f_OCimport_02 {
+    class B_FR_PVP_WASP_CE_01 : amf_pvp_01_top_CE_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "PVP - WASP (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4305,13 +4305,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_PVP_WASP_DA_01 : amf_pvp_01_top_DA_f_OCimport_02 {
+    class B_FR_PVP_WASP_DA_01 : amf_pvp_01_top_DA_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "PVP - WASP (DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4334,13 +4334,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_PVP_WASP_ONU_01 : amf_pvp_01_top_ONU_f_OCimport_02 {
+    class B_FR_PVP_WASP_ONU_01 : amf_pvp_01_top_ONU_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "PVP - WASP (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4363,13 +4363,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_PVP_WASP_TDF_01 : amf_pvp_01_top_TDF_f_OCimport_02 {
+    class B_FR_PVP_WASP_TDF_01 : amf_pvp_01_top_TDF_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "PVP - WASP (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4392,13 +4392,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_PVP_Pl80_CE_01 : amf_pvp_01_mag_CE_f_OCimport_02 {
+    class B_FR_PVP_Pl80_CE_01 : amf_pvp_01_mag_CE_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "PVP - Pl80 (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4421,13 +4421,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_PVP_Pl80_DA_01 : amf_pvp_01_mag_DA_f_OCimport_02 {
+    class B_FR_PVP_Pl80_DA_01 : amf_pvp_01_mag_DA_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "PVP - Pl80 (DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4450,13 +4450,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_PVP_Pl80_ONU_01 : amf_pvp_01_mag_ONU_f_OCimport_02 {
+    class B_FR_PVP_Pl80_ONU_01 : amf_pvp_01_mag_ONU_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "PVP - Pl80 (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4479,13 +4479,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_PVP_Pl80_TDF_01 : amf_pvp_01_mag_TDF_f_OCimport_02 {
+    class B_FR_PVP_Pl80_TDF_01 : amf_pvp_01_mag_TDF_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "PVP - Pl80 (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4508,13 +4508,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Rescue_Seat_01 : AMF_Rescue_Seat_OCimport_02 {
+    class B_FR_Rescue_Seat_01 : AMF_Rescue_Seat_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rescue Seat";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "Civilian";
 
 
@@ -4532,13 +4532,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_EC665_Tigre_HAD_01 : AMF_TIGRE_01_OCimport_02 {
+    class B_FR_EC665_Tigre_HAD_01 : AMF_TIGRE_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "EC665 Tigre (HAD)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -4563,13 +4563,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VAB_Ultima_CE_01 : B_AMF_VAB_ULTIMA_X8_F_OCimport_02 {
+    class B_FR_VAB_Ultima_CE_01 : B_AMF_VAB_ULTIMA_X8_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VAB Ultima (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -4595,13 +4595,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VAB_Ultima_TDF_01 : B_AMF_VAB_ULTIMA_X8_TDF_F_OCimport_02 {
+    class B_FR_VAB_Ultima_TDF_01 : B_AMF_VAB_ULTIMA_X8_TDF_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VAB Ultima (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -4627,13 +4627,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VAB_Ultima_TOP_CE_01 : B_AMF_VAB_ULTIMA_TOP_X8_F_OCimport_02 {
+    class B_FR_VAB_Ultima_TOP_CE_01 : B_AMF_VAB_ULTIMA_TOP_X8_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VAB Ultima TOP (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -4656,13 +4656,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VAB_Ultima_Top_TDF_01 : B_AMF_VAB_ULTIMA_TOP_X8_TDF_F_OCimport_02 {
+    class B_FR_VAB_Ultima_Top_TDF_01 : B_AMF_VAB_ULTIMA_TOP_X8_TDF_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VAB Ultima Top (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -4685,13 +4685,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VAB_Ultima_Top_ONU_01 : B_AMF_VAB_ULTIMA_TOP_X8_ONU_F_OCimport_02 {
+    class B_FR_VAB_Ultima_Top_ONU_01 : B_AMF_VAB_ULTIMA_TOP_X8_ONU_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VAB Ultima Top (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -4714,13 +4714,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VAB_Ultima_ONU_01 : B_AMF_VAB_ULTIMA_X8_ONU_F_OCimport_02 {
+    class B_FR_VAB_Ultima_ONU_01 : B_AMF_VAB_ULTIMA_X8_ONU_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VAB Ultima (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_soldier_repair_F";
 
         class Turrets : Turrets {
@@ -4746,13 +4746,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBCI_CE_01 : AMF_VBCI_CE_01_F_OCimport_02 {
+    class B_FR_VBCI_CE_01 : AMF_VBCI_CE_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBCI (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4777,13 +4777,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBCI_TDF_01 : AMF_VBCI_TDF_01_F_OCimport_02 {
+    class B_FR_VBCI_TDF_01 : AMF_VBCI_TDF_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBCI (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4808,13 +4808,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBCI_DA_01 : AMF_VBCI_DA_01_F_OCimport_02 {
+    class B_FR_VBCI_DA_01 : AMF_VBCI_DA_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBCI (DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4837,13 +4837,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBCI_ONU_01 : AMF_VBCI_ONU_01_F_OCimport_02 {
+    class B_FR_VBCI_ONU_01 : AMF_VBCI_ONU_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBCI (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4866,13 +4866,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBCI_FORAD_01 : AMF_VBCI_FORAD_01_F_OCimport_02 {
+    class B_FR_VBCI_FORAD_01 : AMF_VBCI_FORAD_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBCI (FORAD)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4895,13 +4895,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_HMG_CE_01 : AMF_VBMR_HMG_CE_OCimport_02 {
+    class B_FR_VBMR_Griffon_HMG_CE_01 : AMF_VBMR_HMG_CE_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon HMG (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4926,13 +4926,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_HMG_TDF_01 : AMF_VBMR_HMG_TDF_OCimport_02 {
+    class B_FR_VBMR_Griffon_HMG_TDF_01 : AMF_VBMR_HMG_TDF_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon HMG (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4957,13 +4957,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_HMG_OD_01 : AMF_VBMR_HMG_OD_OCimport_02 {
+    class B_FR_VBMR_Griffon_HMG_OD_01 : AMF_VBMR_HMG_OD_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon HMG (OD)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -4988,13 +4988,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_HMG_ONU_01 : AMF_VBMR_HMG_ONU_OCimport_02 {
+    class B_FR_VBMR_Griffon_HMG_ONU_01 : AMF_VBMR_HMG_ONU_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon HMG (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5019,13 +5019,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_GENIE_CE_01 : AMF_VBMR_GENIE_CE_OCimport_02 {
+    class B_FR_VBMR_Griffon_GENIE_CE_01 : AMF_VBMR_GENIE_CE_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon GENIE (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5050,13 +5050,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_GENIE_TDF_01 : AMF_VBMR_GENIE_TDF_OCimport_02 {
+    class B_FR_VBMR_Griffon_GENIE_TDF_01 : AMF_VBMR_GENIE_TDF_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon GENIE (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5081,13 +5081,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_GENIE_ONU_01 : AMF_VBMR_GENIE_ONU_OCimport_02 {
+    class B_FR_VBMR_Griffon_GENIE_ONU_01 : AMF_VBMR_GENIE_ONU_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon GENIE (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5112,13 +5112,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_GENIE_OD_01 : AMF_VBMR_GENIE_OD_OCimport_02 {
+    class B_FR_VBMR_Griffon_GENIE_OD_01 : AMF_VBMR_GENIE_OD_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon GENIE (OD)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5143,13 +5143,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_COMMANDEMENT_CE_01 : AMF_VBMR_COMMANDEMENT_CE_OCimport_02 {
+    class B_FR_VBMR_Griffon_COMMANDEMENT_CE_01 : AMF_VBMR_COMMANDEMENT_CE_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon COMMANDEMENT (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5172,13 +5172,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_COMMANDEMENT_TDF_01 : AMF_VBMR_COMMANDEMENT_TDF_OCimport_02 {
+    class B_FR_VBMR_Griffon_COMMANDEMENT_TDF_01 : AMF_VBMR_COMMANDEMENT_TDF_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon COMMANDEMENT (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5201,13 +5201,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_COMMANDEMENT_ONU_01 : AMF_VBMR_COMMANDEMENT_ONU_OCimport_02 {
+    class B_FR_VBMR_Griffon_COMMANDEMENT_ONU_01 : AMF_VBMR_COMMANDEMENT_ONU_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon COMMANDEMENT (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5230,13 +5230,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_COMMANDEMENT_OD_01 : AMF_VBMR_COMMANDEMENT_OD_OCimport_02 {
+    class B_FR_VBMR_Griffon_COMMANDEMENT_OD_01 : AMF_VBMR_COMMANDEMENT_OD_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon COMMANDEMENT (OD)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5259,13 +5259,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_SANITAIRE_CE_01 : AMF_VBMR_SAN_CE_OCimport_02 {
+    class B_FR_VBMR_Griffon_SANITAIRE_CE_01 : AMF_VBMR_SAN_CE_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon SANITAIRE (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5289,13 +5289,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_SANITAIRE_TDF_01 : AMF_VBMR_SAN_TDF_OCimport_02 {
+    class B_FR_VBMR_Griffon_SANITAIRE_TDF_01 : AMF_VBMR_SAN_TDF_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon SANITAIRE (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5319,13 +5319,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_SANITAIRE_ONU_01 : AMF_VBMR_SAN_ONU_OCimport_02 {
+    class B_FR_VBMR_Griffon_SANITAIRE_ONU_01 : AMF_VBMR_SAN_ONU_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon SANITAIRE (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5349,13 +5349,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_Griffon_SANITAIRE_OD_01 : AMF_VBMR_SAN_OD_OCimport_02 {
+    class B_FR_VBMR_Griffon_SANITAIRE_OD_01 : AMF_VBMR_SAN_OD_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR Griffon SANITAIRE (OD)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5379,13 +5379,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_LCE_01 : AMF_VBMR_L_CE_01_OCimport_02 {
+    class B_FR_VBMR_LCE_01 : AMF_VBMR_L_CE_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR-L (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5410,13 +5410,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_LTDF_01 : AMF_VBMR_L_TDF_01_OCimport_02 {
+    class B_FR_VBMR_LTDF_01 : AMF_VBMR_L_TDF_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR-L (TDF)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5441,13 +5441,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_LONU_01 : AMF_VBMR_L_ONU_01_OCimport_02 {
+    class B_FR_VBMR_LONU_01 : AMF_VBMR_L_ONU_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR-L (ONU)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5472,13 +5472,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_VBMR_LOD_01 : AMF_VBMR_L_OD_01_OCimport_02 {
+    class B_FR_VBMR_LOD_01 : AMF_VBMR_L_OD_01_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "VBMR-L (OD)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Soldier_F";
 
         class Turrets : Turrets {
@@ -5503,13 +5503,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_H225M_Caracal_4RHFS_01 : B_AMF_Heli_Transport_4RHFS_01_F_OCimport_02 {
+    class B_FR_H225M_Caracal_4RHFS_01 : B_AMF_Heli_Transport_4RHFS_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "H225M Caracal - 4RHFS";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -5539,13 +5539,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_H225M_Caracal_01 : B_AMF_Heli_Transport_01_F_OCimport_02 {
+    class B_FR_H225M_Caracal_01 : B_AMF_Heli_Transport_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "H225M Caracal";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -5574,13 +5574,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Reaper_MQ9_01 : B_AMF_REAPER_dynamicLoadout_F_OCimport_02 {
+    class B_FR_Reaper_MQ9_01 : B_AMF_REAPER_dynamicLoadout_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Reaper MQ9";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_UAV_AI";
 
         class Turrets : Turrets {
@@ -5603,13 +5603,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Gazelle_AFTE_CE_01 : AMF_gazelle_afte_f_OCimport_02 {
+    class B_FR_Gazelle_AFTE_CE_01 : AMF_gazelle_afte_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gazelle AFTE (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -5634,13 +5634,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Gazelle_minigun_CE_01 : AMF_gazelle_minigun_f_OCimport_02 {
+    class B_FR_Gazelle_minigun_CE_01 : AMF_gazelle_minigun_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gazelle minigun (CE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -5665,13 +5665,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Gazelle_AFTE_DA_01 : AMF_gazelle_afte_da_f_OCimport_02 {
+    class B_FR_Gazelle_AFTE_DA_01 : AMF_gazelle_afte_da_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gazelle AFTE (DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -5696,13 +5696,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Gazelle_minigun_DA_01 : AMF_gazelle_minigun_da_f_OCimport_02 {
+    class B_FR_Gazelle_minigun_DA_01 : AMF_gazelle_minigun_da_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gazelle minigun (DA)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -5727,13 +5727,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Gazelle_AFTE_OLIVE_01 : AMF_gazelle_afte_olive_f_OCimport_02 {
+    class B_FR_Gazelle_AFTE_OLIVE_01 : AMF_gazelle_afte_olive_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gazelle AFTE (OLIVE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -5758,13 +5758,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Gazelle_minigun_OLIVE_01 : AMF_gazelle_minigun_olive_f_OCimport_02 {
+    class B_FR_Gazelle_minigun_OLIVE_01 : AMF_gazelle_minigun_olive_f_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gazelle minigun (OLIVE)";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Helipilot_F";
 
         class Turrets : Turrets {
@@ -5789,13 +5789,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_DASSAULT_RAFALE_M_01 : AMF_RAFALE_M_01_F_OCimport_02 {
+    class B_FR_DASSAULT_RAFALE_M_01 : AMF_RAFALE_M_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "DASSAULT RAFALE M";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
 
@@ -5813,13 +5813,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_DASSAULT_RAFALE_C_01 : AMF_RAFALE_C_01_F_OCimport_02 {
+    class B_FR_DASSAULT_RAFALE_C_01 : AMF_RAFALE_C_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "DASSAULT RAFALE C";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
 
@@ -5837,13 +5837,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_DASSAULT_RAFALE_B_01 : AMF_RAFALE_B_01_F_OCimport_02 {
+    class B_FR_DASSAULT_RAFALE_B_01 : AMF_RAFALE_B_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "DASSAULT RAFALE B";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
         class Turrets : Turrets {
@@ -5866,13 +5866,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Croatian_Rafale_C_01 : AMF_RAFALE_CRO_01_C_OCimport_02 {
+    class B_FR_Croatian_Rafale_C_01 : AMF_RAFALE_CRO_01_C_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Croatian Rafale C";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
 
@@ -5890,13 +5890,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Greek_Rafale_C_01 : AMF_RAFALE_GREEK_01_C_OCimport_02 {
+    class B_FR_Greek_Rafale_C_01 : AMF_RAFALE_GREEK_01_C_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Greek Rafale C";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
 
@@ -5914,13 +5914,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Indian_Rafale_01 : AMF_RAFALE_INDIA_01_C_OCimport_02 {
+    class B_FR_Indian_Rafale_01 : AMF_RAFALE_INDIA_01_C_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Indian Rafale";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
 
@@ -5938,13 +5938,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Indonesian_Rafale_01 : AMF_RAFALE_INDO_01_C_OCimport_02 {
+    class B_FR_Indonesian_Rafale_01 : AMF_RAFALE_INDO_01_C_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Indonesian Rafale";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
 
@@ -5962,13 +5962,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Emirati_Arab_Unis_Rafale_01 : AMF_RAFALE_ARABIAN_01_C_OCimport_02 {
+    class B_FR_Emirati_Arab_Unis_Rafale_01 : AMF_RAFALE_ARABIAN_01_C_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Emirati Arab Unis Rafale";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
 
@@ -5986,13 +5986,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_EGYPTIAN_Rafale_01 : AMF_RAFALE_EGYPTIAN_01_C_OCimport_02 {
+    class B_FR_EGYPTIAN_Rafale_01 : AMF_RAFALE_EGYPTIAN_01_C_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "EGYPTIAN Rafale";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
 
@@ -6010,13 +6010,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_QATARI_Rafale_01 : AMF_RAFALE_QATARIAN_01_C_OCimport_02 {
+    class B_FR_QATARI_Rafale_01 : AMF_RAFALE_QATARIAN_01_C_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "QATARI Rafale";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
 
@@ -6034,13 +6034,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Croatian_Rafale_B_01 : AMF_RAFALE_CRO_01_B_OCimport_02 {
+    class B_FR_Croatian_Rafale_B_01 : AMF_RAFALE_CRO_01_B_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Croatian Rafale B";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
         class Turrets : Turrets {
@@ -6063,13 +6063,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Greek_Rafale_B_01 : AMF_RAFALE_GREEK_01_B_OCimport_02 {
+    class B_FR_Greek_Rafale_B_01 : AMF_RAFALE_GREEK_01_B_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Greek Rafale B";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
         class Turrets : Turrets {
@@ -6092,13 +6092,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Indian_Rafale_B_01 : AMF_RAFALE_INDIA_01_B_OCimport_02 {
+    class B_FR_Indian_Rafale_B_01 : AMF_RAFALE_INDIA_01_B_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Indian Rafale B";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
         class Turrets : Turrets {
@@ -6121,13 +6121,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Indonesian_Rafale_02 : AMF_RAFALE_INDO_01_B_OCimport_02 {
+    class B_FR_Indonesian_Rafale_02 : AMF_RAFALE_INDO_01_B_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Indonesian Rafale";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
         class Turrets : Turrets {
@@ -6150,13 +6150,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_Emirati_Arab_Unis_Rafale_B_01 : AMF_RAFALE_ARABIAN_01_B_OCimport_02 {
+    class B_FR_Emirati_Arab_Unis_Rafale_B_01 : AMF_RAFALE_ARABIAN_01_B_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "Emirati Arab Unis Rafale B";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
         class Turrets : Turrets {
@@ -6179,13 +6179,13 @@ class CfgVehicles {
 
     };
 
-    class B_FRzv_QATARI_Rafale_B_01 : AMF_RAFALE_QATARIAN_01_B_OCimport_02 {
+    class B_FR_QATARI_Rafale_B_01 : AMF_RAFALE_QATARIAN_01_B_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
         displayName = "QATARI Rafale B";
         side = 1;
-        faction = "B_FRzv";
+        faction = "B_ZV_FR";
         crew = "B_Fighter_Pilot_F";
 
         class Turrets : Turrets {
