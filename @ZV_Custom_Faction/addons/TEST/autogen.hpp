@@ -21,7 +21,7 @@ class CfgGroups {
             name = "[TEST] my faction";
 
             class Infantry {
-                name = "Infantry";
+                name = "Infanterie";
 
             };
 
@@ -35,8 +35,8 @@ class CfgGroups {
 
             };
 
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
+            class RPIMA {
+                name = "1er RPiMa";
 
             };
 
