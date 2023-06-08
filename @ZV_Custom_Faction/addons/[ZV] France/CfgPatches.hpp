@@ -24,7 +24,7 @@ class CfgPatches {
             "B_FR_CE_Fusilier_HK_AA_01",
             "B_FR_CE_FusilierAuto_HK_01",
             "B_FR_CE_Fusilier_Munitions_HK_01",
-            "B_FR_AMF_Fusilier_CE_OD_2_01",
+            "B_FR_CE_Infirmier_HK_01",
             "B_FR_AMF_Fusilier_CE_OD_manches_retrouss_es_01",
             "B_FR_AMF_Fusilier_CE_OD_manches_retrouss_es_2_01",
             "B_FR_AMF_Fusilier_DA_01",
@@ -159,7 +159,7 @@ class CfgPatches {
             "B_FR_Indian_Rafale_B_01",
             "B_FR_Indonesian_Rafale_02",
             "B_FR_Emirati_Arab_Unis_Rafale_B_01",
-            "B_FR_CE_Infirmier_HK_01"
+            "B_FR_CE_Tireur_elite_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
