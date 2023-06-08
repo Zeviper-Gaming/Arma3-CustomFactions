@@ -40,37 +40,37 @@ class CfgGroups {
                         position[] = {5,-5,0};
                         rank = "CAPORAL";
                         side = 1;
-                        vehicle = "B_FR_CE_Fusilier_HK_AT_01";
+                        vehicle = "B_FR_CE_Fusilier_HK_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "SOLDAT";
                         side = 1;
-                        vehicle = "B_FR_CE_FusilierAuto_HK_01";
+                        vehicle = "B_FR_CE_Fusilier_HK_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "B_FR_CE_Fusilier_Munitions_HK_01";
+                        vehicle = "B_FR_CE_Fusilier_HK_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "CAPORAL";
                         side = 1;
-                        vehicle = "B_FR_CE_Fusilier_HK_01";
+                        vehicle = "B_FR_CE_Fusilier_Munitions_HK_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "SOLDAT";
                         side = 1;
-                        vehicle = "B_FR_CE_Fusilier_HK_01";
+                        vehicle = "B_FR_CE_FusilierAuto_HK_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "B_FR_CE_Fusilier_HK_01";
+                        vehicle = "B_FR_CE_Fusilier_HK_AT_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
@@ -97,43 +97,43 @@ class CfgGroups {
                         position[] = {5,-5,0};
                         rank = "SOLDAT";
                         side = 1;
-                        vehicle = "B_FR_CE_Fusilier_AT_01";
+                        vehicle = "B_FR_CE_Fusilier_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "B_FR_CE_Mitrailleur_Minimi_565_01";
+                        vehicle = "B_FR_CE_Fusilier_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "B_FR_CE_Assistant_Minimi_01";
+                        vehicle = "B_FR_CE_Fusilier_AT_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "B_FR_CE_Fusilier_01";
+                        vehicle = "B_FR_CE_Mitrailleur_Minimi_565_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "B_FR_CE_Fusilier_01";
+                        vehicle = "B_FR_CE_Assistant_Minimi_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "B_FR_CE_Infirmier_01";
+                        vehicle = "B_FR_CE_Tireur_elite_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "CAPORAL";
                         side = 1;
-                        vehicle = "B_FR_CE_Tireur_elite_01";
+                        vehicle = "B_FR_CE_Infirmier_01";
                     };
                 };
 
