@@ -1,1 +1,0 @@
-*paste full faction here*
