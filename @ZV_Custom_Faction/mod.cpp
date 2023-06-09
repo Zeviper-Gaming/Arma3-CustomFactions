@@ -1,4 +1,4 @@
-name		= "[ZV] custom faction 0.9.1";
+name		= "[ZV] custom faction 0.9.2";
 author		= "Zeviper";
 actionName	= "Go to github"
 action		= "https://github.com/Zeviper-Gaming/Arma3-CustomFactions";
