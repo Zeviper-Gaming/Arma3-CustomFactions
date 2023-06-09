@@ -295,33 +295,33 @@ class CfgVehicles {
         };
     };
 
-    class R3F_FANTASSIN_300_OPFOR;
-    class R3F_FANTASSIN_300_OPFOR_OCimport_01 : R3F_FANTASSIN_300_OPFOR { scope = 0; class EventHandlers; };
-    class R3F_FANTASSIN_300_OPFOR_OCimport_02 : R3F_FANTASSIN_300_OPFOR_OCimport_01 { class EventHandlers; };
+    class B_Soldier_F;
+    class B_Soldier_F_OCimport_01 : B_Soldier_F { scope = 0; class EventHandlers; };
+    class B_Soldier_F_OCimport_02 : B_Soldier_F_OCimport_01 { class EventHandlers; };
 
-    class amf_french_soldier_04_BLK;
-    class amf_french_soldier_04_BLK_OCimport_01 : amf_french_soldier_04_BLK { scope = 0; class EventHandlers; };
-    class amf_french_soldier_04_BLK_OCimport_02 : amf_french_soldier_04_BLK_OCimport_01 { class EventHandlers; };
+    class B_Soldier_GL_F;
+    class B_Soldier_GL_F_OCimport_01 : B_Soldier_GL_F { scope = 0; class EventHandlers; };
+    class B_Soldier_GL_F_OCimport_02 : B_Soldier_GL_F_OCimport_01 { class EventHandlers; };
 
     class amf_french_soldier_05_BLK;
     class amf_french_soldier_05_BLK_OCimport_01 : amf_french_soldier_05_BLK { scope = 0; class EventHandlers; };
     class amf_french_soldier_05_BLK_OCimport_02 : amf_french_soldier_05_BLK_OCimport_01 { class EventHandlers; };
 
-    class amf_french_soldier_04_TAN;
-    class amf_french_soldier_04_TAN_OCimport_01 : amf_french_soldier_04_TAN { scope = 0; class EventHandlers; };
-    class amf_french_soldier_04_TAN_OCimport_02 : amf_french_soldier_04_TAN_OCimport_01 { class EventHandlers; };
+    class B_soldier_AT_F;
+    class B_soldier_AT_F_OCimport_01 : B_soldier_AT_F { scope = 0; class EventHandlers; };
+    class B_soldier_AT_F_OCimport_02 : B_soldier_AT_F_OCimport_01 { class EventHandlers; };
 
-    class amf_french_soldier_05_TAN;
-    class amf_french_soldier_05_TAN_OCimport_01 : amf_french_soldier_05_TAN { scope = 0; class EventHandlers; };
-    class amf_french_soldier_05_TAN_OCimport_02 : amf_french_soldier_05_TAN_OCimport_01 { class EventHandlers; };
+    class B_soldier_AA_F;
+    class B_soldier_AA_F_OCimport_01 : B_soldier_AA_F { scope = 0; class EventHandlers; };
+    class B_soldier_AA_F_OCimport_02 : B_soldier_AA_F_OCimport_01 { class EventHandlers; };
 
-    class amf_french_soldier_03_BME;
-    class amf_french_soldier_03_BME_OCimport_01 : amf_french_soldier_03_BME { scope = 0; class EventHandlers; };
-    class amf_french_soldier_03_BME_OCimport_02 : amf_french_soldier_03_BME_OCimport_01 { class EventHandlers; };
+    class B_HeavyGunner_F;
+    class B_HeavyGunner_F_OCimport_01 : B_HeavyGunner_F { scope = 0; class EventHandlers; };
+    class B_HeavyGunner_F_OCimport_02 : B_HeavyGunner_F_OCimport_01 { class EventHandlers; };
 
-    class amf_french_soldier_05_OD;
-    class amf_french_soldier_05_OD_OCimport_01 : amf_french_soldier_05_OD { scope = 0; class EventHandlers; };
-    class amf_french_soldier_05_OD_OCimport_02 : amf_french_soldier_05_OD_OCimport_01 { class EventHandlers; };
+    class B_Soldier_A_F;
+    class B_Soldier_A_F_OCimport_01 : B_Soldier_A_F { scope = 0; class EventHandlers; };
+    class B_Soldier_A_F_OCimport_02 : B_Soldier_A_F_OCimport_01 { class EventHandlers; };
 
     class amf_french_combat_pilot;
     class amf_french_combat_pilot_OCimport_01 : amf_french_combat_pilot { scope = 0; class EventHandlers; };
@@ -330,10 +330,6 @@ class CfgVehicles {
     class amf_french_soldier_01_CE;
     class amf_french_soldier_01_CE_OCimport_01 : amf_french_soldier_01_CE { scope = 0; class EventHandlers; };
     class amf_french_soldier_01_CE_OCimport_02 : amf_french_soldier_01_CE_OCimport_01 { class EventHandlers; };
-
-    class amf_french_soldier_03_BME_2;
-    class amf_french_soldier_03_BME_2_OCimport_01 : amf_french_soldier_03_BME_2 { scope = 0; class EventHandlers; };
-    class amf_french_soldier_03_BME_2_OCimport_02 : amf_french_soldier_03_BME_2_OCimport_01 { class EventHandlers; };
 
     class amf_french_soldier_02_CE;
     class amf_french_soldier_02_CE_OCimport_01 : amf_french_soldier_02_CE { scope = 0; class EventHandlers; };
@@ -1622,7 +1618,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Fusilier_01 : R3F_FANTASSIN_300_OPFOR_OCimport_02 {
+    class B_FR_CE_Fusilier_01 : B_Soldier_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -1661,7 +1657,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Fusilier_HK_01 : R3F_FANTASSIN_300_OPFOR_OCimport_02 {
+    class B_FR_CE_Fusilier_HK_01 : B_Soldier_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -1700,7 +1696,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Grenadier_01 : amf_french_soldier_04_BLK_OCimport_02 {
+    class B_FR_CE_Grenadier_01 : B_Soldier_GL_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -1740,7 +1736,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Grenadier_ACR_01 : amf_french_soldier_05_BLK_OCimport_02 {
+    class B_FR_CE_Grenadier_ACR_01 : B_Soldier_GL_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -1781,7 +1777,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Fusilier_AT_01 : amf_french_soldier_04_TAN_OCimport_02 {
+    class B_FR_CE_Fusilier_AT_01 : B_soldier_AT_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -1820,7 +1816,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Fusilier_AA_01 : amf_french_soldier_05_TAN_OCimport_02 {
+    class B_FR_CE_Fusilier_AA_01 : B_soldier_AA_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -1859,7 +1855,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Mitrailleur_Minimi_565_01 : amf_french_soldier_03_BME_OCimport_02 {
+    class B_FR_CE_Mitrailleur_Minimi_565_01 : B_HeavyGunner_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -1898,7 +1894,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Assistant_Minimi_01 : amf_french_soldier_05_OD_OCimport_02 {
+    class B_FR_CE_Assistant_Minimi_01 : B_Soldier_A_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -1939,7 +1935,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Fusillier_Munitions_01 : amf_french_combat_pilot_OCimport_02 {
+    class B_FR_CE_Fusillier_Munitions_01 : B_Soldier_A_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -1979,7 +1975,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Grenadier_HK_01 : amf_french_soldier_01_CE_OCimport_02 {
+    class B_FR_CE_Grenadier_HK_01 : B_Soldier_GL_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -2020,7 +2016,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Fusilier_HK_AA_01 : amf_french_soldier_03_BME_2_OCimport_02 {
+    class B_FR_CE_Fusilier_HK_AA_01 : B_soldier_AA_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -2100,7 +2096,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Fusilier_Munitions_HK_01 : amf_french_soldier_02_CE_2_OCimport_02 {
+    class B_FR_CE_Fusilier_Munitions_HK_01 : B_Soldier_A_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
