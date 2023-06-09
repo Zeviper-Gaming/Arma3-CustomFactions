@@ -3,6 +3,16 @@
 // Generated with Arma 3 version 212.150301 on Stable branch
 // Generated with ALiVE version 1.19.0.2301051
 //////////////////////////////////////////////////////////////////////////////////
+// B_Soldier_TL_F
+// B_Soldier_F
+// B_soldier_AR_F
+// B_medic_F
+// B_soldier_AT_F
+// B_soldier_AA_F
+// B_soldier_M_F
+// B_Soldier_GL_F
+// B_Soldier_A_F
+// B_HeavyGunner_F
 
 class CfgFactionClasses {
     class B_ZV_FR {
