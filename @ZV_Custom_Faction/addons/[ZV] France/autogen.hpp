@@ -140,12 +140,12 @@ class CfgGroups {
             };
 
             class SpecOps {
-                name = "Special Forces";
+                name = "SpecOps";
 
             };
 
             class Motorized {
-                name = "Motorized Infantry";
+                name = "Motorized";
 
             };
 
@@ -155,17 +155,17 @@ class CfgGroups {
             };
 
             class Support {
-                name = "Support Infantry";
+                name = "Support";
 
             };
 
             class Mechanized {
-                name = "Mechanized Infantry";
+                name = "Mechanized";
 
             };
 
             class Armored {
-                name = "Armor";
+                name = "Armored";
 
             };
 
@@ -285,13 +285,9 @@ class CfgVehicles {
         };
     };
 
-    class amf_french_soldier_04_MTP;
-    class amf_french_soldier_04_MTP_OCimport_01 : amf_french_soldier_04_MTP { scope = 0; class EventHandlers; };
-    class amf_french_soldier_04_MTP_OCimport_02 : amf_french_soldier_04_MTP_OCimport_01 { class EventHandlers; };
-
-    class amf_french_soldier_05_MTP;
-    class amf_french_soldier_05_MTP_OCimport_01 : amf_french_soldier_05_MTP { scope = 0; class EventHandlers; };
-    class amf_french_soldier_05_MTP_OCimport_02 : amf_french_soldier_05_MTP_OCimport_01 { class EventHandlers; };
+    class R3F_FANTASSIN_300_OPFOR;
+    class R3F_FANTASSIN_300_OPFOR_OCimport_01 : R3F_FANTASSIN_300_OPFOR { scope = 0; class EventHandlers; };
+    class R3F_FANTASSIN_300_OPFOR_OCimport_02 : R3F_FANTASSIN_300_OPFOR_OCimport_01 { class EventHandlers; };
 
     class amf_french_soldier_04_BLK;
     class amf_french_soldier_04_BLK_OCimport_01 : amf_french_soldier_04_BLK { scope = 0; class EventHandlers; };
@@ -1616,7 +1612,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Fusilier_01 : amf_french_soldier_04_MTP_OCimport_02 {
+    class B_FR_CE_Fusilier_01 : R3F_FANTASSIN_300_OPFOR_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
@@ -1655,7 +1651,7 @@ class CfgVehicles {
 
     };
 
-    class B_FR_CE_Fusilier_HK_01 : amf_french_soldier_05_MTP_OCimport_02 {
+    class B_FR_CE_Fusilier_HK_01 : R3F_FANTASSIN_300_OPFOR_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
