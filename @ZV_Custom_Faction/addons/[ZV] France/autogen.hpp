@@ -1639,7 +1639,12 @@ class CfgVehicles {
         magazines[] = {"R3F_25Rnd_556x45_FAMAS","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_25Rnd_556x45_FAMAS","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
         respawnMagazines[] = {"R3F_25Rnd_556x45_FAMAS","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_25Rnd_556x45_FAMAS","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
 
-        ALiVE_orbatCreator_loadout[] = {{"R3F_Famas_F1","","acc_pointer_IR","optic_Hamr",{"R3F_25Rnd_556x45_FAMAS",25},{},""},{},{"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},{"R3F_uniform_f1",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},{"FR2035_V_PlateCarrier2_ce",{{"ACE_NVG_Wide_Black",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_25Rnd_556x45_FAMAS",5,25}}},{},"R3F_casque_spectra","",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {
+            {"R3F_Famas_F1","","acc_pointer_IR","optic_Hamr",{"R3F_25Rnd_556x45_FAMAS",25},{},""},
+            {},
+            {"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},
+            {"R3F_uniform_f1",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},
+            {"FR2035_V_PlateCarrier2_ce",{{"ACE_NVG_Wide_Black",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_25Rnd_556x45_FAMAS",5,25}}},{},"R3F_casque_spectra","",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1719,7 +1724,7 @@ class CfgVehicles {
 
         backpack = "FR2035_B_AssaultPack_ce";
 
-        ALiVE_orbatCreator_loadout[] = {{"R3F_Famas_F1_M203","","","optic_Hamr",{"R3F_25Rnd_556x45_FAMAS",25},{},""},{},{"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},{"R3F_uniform_f1",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},{"FR2035_V_PlateCarrierGL_ce",{{"ACE_NVG_Wide_Black",1},{"acc_pointer_IR",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_25Rnd_556x45_FAMAS",5,25},{"1Rnd_Smoke_Grenade_shell",2,1},{"1Rnd_HE_Grenade_shell",2,1}}},{"FR2035_B_AssaultPack_ce",{{"R3F_AC58",2},{"1Rnd_HE_Grenade_shell",10,1},{"1Rnd_Smoke_Grenade_shell",5,1},{"1Rnd_SmokeRed_Grenade_shell",2,1},{"UGL_FlareCIR_F",2,1},{"ACE_40mm_Flare_white",2,1},{"ACE_40mm_Flare_red",2,1},{"1Rnd_SmokeBlue_Grenade_shell",2,1}}},"R3F_casque_spectra","",{"Laserdesignator_03","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"R3F_Famas_F1_M203","","acc_pointer_IR","optic_Hamr",{"R3F_25Rnd_556x45_FAMAS",25},{},""},{},{"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},{"R3F_uniform_f1",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},{"FR2035_V_PlateCarrierGL_ce",{{"ACE_NVG_Wide_Black",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_25Rnd_556x45_FAMAS",5,25},{"1Rnd_Smoke_Grenade_shell",2,1},{"1Rnd_HE_Grenade_shell",2,1}}},{"FR2035_B_AssaultPack_ce",{{"R3F_AC58",2},{"1Rnd_HE_Grenade_shell",10,1},{"1Rnd_Smoke_Grenade_shell",5,1},{"1Rnd_SmokeRed_Grenade_shell",2,1},{"UGL_FlareCIR_F",2,1},{"ACE_40mm_Flare_white",2,1},{"ACE_40mm_Flare_red",2,1},{"1Rnd_SmokeBlue_Grenade_shell",2,1}}},"R3F_casque_spectra","",{"Laserdesignator_03","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2160,7 +2165,7 @@ class CfgVehicles {
 
         backpack = "R3F_sac_moyen_medic_CE";
 
-        ALiVE_orbatCreator_loadout[] = {{"R3F_HK416M","","","optic_Hamr",{"R3F_30Rnd_556x45_HK416",30},{},""},{},{"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},{"R3F_uniform_urr_medic",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},{"FR2035_V_PlateCarrier2_ce",{{"ACE_NVG_Wide_Black",1},{"acc_pointer_IR",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_30Rnd_556x45_HK416",2,30},{"R3F_30Rnd_556x45_TRACER_HK416",3,30}}},{"R3F_sac_moyen_medic_CE",{{"ACE_epinephrine",20},{"ACE_adenosine",5},{"ACE_morphine",20},{"ACE_packingBandage",20},{"ACE_elasticBandage",20},{"ACE_EarPlugs",5},{"ACE_tourniquet",5},{"ACE_splint",5},{"ACE_quikclot",5},{"ACE_salineIV",4},{"ACE_salineIV_500",5},{"ACE_surgicalKit",1}}},"R3F_casque_spectra","",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"R3F_HK416M","","acc_pointer_IR","optic_Hamr",{"R3F_30Rnd_556x45_HK416",30},{},""},{},{"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},{"R3F_uniform_urr_medic",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},{"FR2035_V_PlateCarrier2_ce",{{"ACE_NVG_Wide_Black",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_30Rnd_556x45_HK416",2,30},{"R3F_30Rnd_556x45_TRACER_HK416",3,30}}},{"R3F_sac_moyen_medic_CE",{{"ACE_epinephrine",20},{"ACE_adenosine",5},{"ACE_morphine",20},{"ACE_packingBandage",20},{"ACE_elasticBandage",20},{"ACE_EarPlugs",5},{"ACE_tourniquet",5},{"ACE_splint",5},{"ACE_quikclot",5},{"ACE_salineIV",4},{"ACE_salineIV_500",5},{"ACE_surgicalKit",1}}},"R3F_casque_spectra","",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
