@@ -295,6 +295,10 @@ class CfgVehicles {
         };
     };
 
+    class B_Soldier_TL_F;
+    class B_Soldier_TL_F_OCimport_01 : B_Soldier_TL_F { scope = 0; class EventHandlers; };
+    class B_Soldier_TL_F_OCimport_02 : B_Soldier_TL_F_OCimport_01 { class EventHandlers; };
+
     class B_Soldier_F;
     class B_Soldier_F_OCimport_01 : B_Soldier_F { scope = 0; class EventHandlers; };
     class B_Soldier_F_OCimport_02 : B_Soldier_F_OCimport_01 { class EventHandlers; };
@@ -1618,6 +1622,51 @@ class CfgVehicles {
 
     };
 
+    class B_FR_CE_Chef_escouade_01 : B_Soldier_TL_F_OCimport_02 {
+        author = "Florian";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "[CE] Chef d'escouade";
+        side = 1;
+        faction = "B_ZV_FR";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+
+        uniformClass = "R3F_uniform_f1";
+
+        linkedItems[] = {"FR2035_V_PlateCarrierGL_ce","R3F_casque_spectra","ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"FR2035_V_PlateCarrierGL_ce","R3F_casque_spectra","ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"R3F_Famas_F1_M203","R3F_PAMAS","Laserdesignator_03"};
+        respawnWeapons[] = {"R3F_Famas_F1_M203","R3F_PAMAS","Laserdesignator_03"};
+
+        magazines[] = {"R3F_25Rnd_556x45_FAMAS","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_25Rnd_556x45_FAMAS","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
+        respawnMagazines[] = {"R3F_25Rnd_556x45_FAMAS","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_25Rnd_556x45_FAMAS","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
+
+        ALiVE_orbatCreator_loadout[] = {
+            {"R3F_Famas_F1_M203","","acc_pointer_IR","optic_Hamr",{"R3F_25Rnd_556x45_FAMAS",25},{},""},
+            {},
+            {"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},
+            {"R3F_uniform_f1",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},
+            {"FR2035_V_PlateCarrierGL_ce",{{"ACE_NVG_Wide_Black",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"R3F_25Rnd_556x45_FAMAS",5,25},{"1Rnd_Smoke_Grenade_shell",3,1},{"1Rnd_HE_Grenade_shell",2,1},{"1Rnd_SmokeRed_Grenade_shell",2,1}}},
+            {},
+            "R3F_casque_spectra","",{"Laserdesignator_03","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
     class B_FR_CE_Fusilier_01 : B_Soldier_F_OCimport_02 {
         author = "Florian";
         scope = 2;
@@ -1644,7 +1693,9 @@ class CfgVehicles {
             {},
             {"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},
             {"R3F_uniform_f1",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},
-            {"FR2035_V_PlateCarrier2_ce",{{"ACE_NVG_Wide_Black",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_25Rnd_556x45_FAMAS",5,25}}},{},"R3F_casque_spectra","",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
+            {"FR2035_V_PlateCarrier2_ce",{{"ACE_NVG_Wide_Black",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_25Rnd_556x45_FAMAS",5,25}}},
+            {},
+            "R3F_casque_spectra","",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
