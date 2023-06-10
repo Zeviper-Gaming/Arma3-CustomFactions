@@ -1782,6 +1782,47 @@ class CfgVehicles {
 
     };
 
+    class B_FR_CE_Grenadier_HK_01 : B_Soldier_GL_F_OCimport_02 {
+        author = "Florian";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "[CE] Grenadier HK";
+        side = 1;
+        faction = "B_ZV_FR";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+
+        uniformClass = "R3F_uniform_f1";
+
+        linkedItems[] = {"FR2035_V_PlateCarrier2_ce","R3F_casque_spectra","ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"FR2035_V_PlateCarrier2_ce","R3F_casque_spectra","ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"R3F_HK416M_M203","R3F_PAMAS","Laserdesignator_03"};
+        respawnWeapons[] = {"R3F_HK416M_M203","R3F_PAMAS","Laserdesignator_03"};
+
+        magazines[] = {"R3F_30Rnd_556x45_HK416","1Rnd_HE_Grenade_shell","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_30Rnd_556x45_HK416","1Rnd_HE_Grenade_shell","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
+        respawnMagazines[] = {"R3F_30Rnd_556x45_HK416","1Rnd_HE_Grenade_shell","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_30Rnd_556x45_HK416","1Rnd_HE_Grenade_shell","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
+
+        backpack = "FR2035_B_AssaultPack_ce";
+
+        ALiVE_orbatCreator_loadout[] = {{"R3F_HK416M_M203","","acc_pointer_IR","optic_Hamr",{"R3F_30Rnd_556x45_HK416",30},{"1Rnd_HE_Grenade_shell",1},""},{},{"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},{"R3F_uniform_f1",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},{"FR2035_V_PlateCarrier2_ce",{{"ACE_NVG_Wide_Black",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_30Rnd_556x45_HK416",5,30},{"1Rnd_HE_Grenade_shell",2,1},{"1Rnd_Smoke_Grenade_shell",2,1}}},{"FR2035_B_AssaultPack_ce",{{"1Rnd_Smoke_Grenade_shell",5,1},{"1Rnd_HE_Grenade_shell",10,1},{"1Rnd_SmokeRed_Grenade_shell",2,1},{"1Rnd_SmokeBlue_Grenade_shell",2,1},{"ACE_40mm_Flare_red",2,1},{"ACE_40mm_Flare_white",2,1},{"UGL_FlareCIR_F",2,1}}},"R3F_casque_spectra","",{"Laserdesignator_03","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'FR2035_Insignia_France'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_insignia = "FR2035_Insignia_France";
+
+    };
+
     class B_FR_CE_Fusilier_AT_01 : B_soldier_AT_F_OCimport_02 {
         author = "Florian";
         scope = 2;
@@ -1977,47 +2018,6 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class B_FR_CE_Grenadier_HK_01 : B_Soldier_GL_F_OCimport_02 {
-        author = "Florian";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "[CE] Grenadier HK";
-        side = 1;
-        faction = "B_ZV_FR";
-
-        identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-
-        uniformClass = "R3F_uniform_f1";
-
-        linkedItems[] = {"FR2035_V_PlateCarrier2_ce","R3F_casque_spectra","ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"FR2035_V_PlateCarrier2_ce","R3F_casque_spectra","ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch"};
-
-        weapons[] = {"R3F_HK416M_M203","R3F_PAMAS","Laserdesignator_03"};
-        respawnWeapons[] = {"R3F_HK416M_M203","R3F_PAMAS","Laserdesignator_03"};
-
-        magazines[] = {"R3F_30Rnd_556x45_HK416","1Rnd_HE_Grenade_shell","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_30Rnd_556x45_HK416","1Rnd_HE_Grenade_shell","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
-        respawnMagazines[] = {"R3F_30Rnd_556x45_HK416","1Rnd_HE_Grenade_shell","R3F_15Rnd_9x19_PAMAS","Laserbatteries","R3F_30Rnd_556x45_HK416","1Rnd_HE_Grenade_shell","R3F_15Rnd_9x19_PAMAS","Laserbatteries"};
-
-        backpack = "FR2035_B_AssaultPack_ce";
-
-        ALiVE_orbatCreator_loadout[] = {{"R3F_HK416M_M203","","acc_pointer_IR","optic_Hamr",{"R3F_30Rnd_556x45_HK416",30},{"1Rnd_HE_Grenade_shell",1},""},{},{"R3F_PAMAS","","","",{"R3F_15Rnd_9x19_PAMAS",15},{},""},{"R3F_uniform_f1",{{"ACE_morphine",5},{"ACE_Flashlight_KSF1",1},{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"ACE_IR_Strobe_Item",1},{"ACE_elasticBandage",5}}},{"FR2035_V_PlateCarrier2_ce",{{"ACE_NVG_Wide_Black",1},{"R3F_15Rnd_9x19_PAMAS",2,15},{"HandGrenade",2,1},{"SmokeShell",2,1},{"R3F_30Rnd_556x45_HK416",5,30},{"1Rnd_HE_Grenade_shell",2,1},{"1Rnd_Smoke_Grenade_shell",2,1}}},{"FR2035_B_AssaultPack_ce",{{"1Rnd_Smoke_Grenade_shell",5,1},{"1Rnd_HE_Grenade_shell",10,1},{"1Rnd_SmokeRed_Grenade_shell",2,1},{"1Rnd_SmokeBlue_Grenade_shell",2,1},{"ACE_40mm_Flare_red",2,1},{"ACE_40mm_Flare_white",2,1},{"UGL_FlareCIR_F",2,1}}},"R3F_casque_spectra","",{"Laserdesignator_03","","","",{"Laserbatteries",1},{},""},{"ItemMap","MCC_itemConsole","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'FR2035_Insignia_France'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_insignia = "FR2035_Insignia_France";
 
     };
 
