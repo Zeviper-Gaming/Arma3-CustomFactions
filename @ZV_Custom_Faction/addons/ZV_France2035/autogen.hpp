@@ -138,7 +138,7 @@ class CfgGroups {
                 };
 
                 class b_france_infantry_unit {
-                    name = "UnitÃ©";
+                    name = "Unite";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -171,7 +171,7 @@ class CfgGroups {
                 };
 
                 class b_france_infantry_quipe_anti_blind_s {
-                    name = "Ã‰quipe anti-blindÃ©s";
+                    name = "Equipe anti-blindes";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -204,7 +204,7 @@ class CfgGroups {
                 };
 
                 class b_france_infantry_quipe_de_dfense_arienne {
-                    name = "Ã‰quipe de dÃ©fense aÃ©rienne";
+                    name = "Equipe de defense aerienne";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -237,7 +237,7 @@ class CfgGroups {
                 };
 
                 class b_france_infantry_quipe_de_feu_lg_re {
-                    name = "Ã‰quipe de feu (lÃ©gÃ¨re)";
+                    name = "Equipe de feu (legere)";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -291,7 +291,7 @@ class CfgGroups {
                 };
 
                 class b_france_infantry_quipe_reco {
-                    name = "Ã‰quipe reco";
+                    name = "Equipe reco";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
@@ -390,7 +390,7 @@ class CfgGroups {
                 };
 
                 class b_france_infantry_quipe_de_snipers {
-                    name = "Ã‰quipe de snipers";
+                    name = "Equipe de snipers";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
@@ -530,7 +530,7 @@ class CfgGroups {
                 name = "SpecOps";
 
                 class b_france_specops_quipe_aquatique {
-                    name = "Ã‰quipe aquatique";
+                    name = "Equipe aquatique";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -563,7 +563,7 @@ class CfgGroups {
                 };
 
                 class b_france_specops_quipe_aquatique_bateau {
-                    name = "Ã‰quipe aquatique (bateau)";
+                    name = "Equipe aquatique (bateau)";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -602,7 +602,7 @@ class CfgGroups {
                 };
 
                 class b_france_specops_quipe_aquatique_sdv {
-                    name = "Ã‰quipe aquatique (SDV)";
+                    name = "Equipe aquatique (SDV)";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -647,7 +647,7 @@ class CfgGroups {
                 };
 
                 class b_france_specops_petite_quipe_uav {
-                    name = "Petite Ã©quipe UAV";
+                    name = "Petite equipe UAV";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -674,7 +674,7 @@ class CfgGroups {
                 };
 
                 class b_france_specops_quipe_reco_ugv {
-                    name = "Ã‰quipe reco UGV";
+                    name = "Equipe reco UGV";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
@@ -701,7 +701,7 @@ class CfgGroups {
                 };
 
                 class b_france_specops_quipe_dassaut_ugv {
-                    name = "Ã‰quipe d'assaut UGV";
+                    name = "Equipe d'assaut UGV";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -728,7 +728,7 @@ class CfgGroups {
                 };
 
                 class b_france_specops_quipe_reco_uav {
-                    name = "Ã‰quipe reco UAV";
+                    name = "Equipe reco UAV";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
@@ -755,7 +755,7 @@ class CfgGroups {
                 };
 
                 class b_france_specops_quipe_dassaut_uav {
-                    name = "Ã‰quipe d'assaut UAV";
+                    name = "Equipe d'assaut UAV";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -787,7 +787,7 @@ class CfgGroups {
                 name = "Motorized";
 
                 class b_france_motorized_quipe_motoris_e {
-                    name = "Ã‰quipe motorisÃ©e";
+                    name = "Equipe motorisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -814,7 +814,7 @@ class CfgGroups {
                 };
 
                 class b_france_motorized_quipe_anti_blind_smotoris_e {
-                    name = "Ã‰quipe anti-blindÃ©s motorisÃ©e";
+                    name = "Equipe anti-blindes motorisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -847,7 +847,7 @@ class CfgGroups {
                 };
 
                 class b_france_motorized_quipe_de_dfense_arienne_motoris_e {
-                    name = "Ã‰quipe de dÃ©fense aÃ©rienne motorisÃ©e";
+                    name = "Equipe de defense aerienne motorisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -880,7 +880,7 @@ class CfgGroups {
                 };
 
                 class b_france_motorized_quipe_hmg_motoris_e {
-                    name = "Ã‰quipe HMG motorisÃ©e";
+                    name = "Equipe HMG motorisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -913,7 +913,7 @@ class CfgGroups {
                 };
 
                 class b_france_motorized_quipe_gmg_motoris_e {
-                    name = "Ã‰quipe GMG motorisÃ©e";
+                    name = "Equipe GMG motorisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -946,7 +946,7 @@ class CfgGroups {
                 };
 
                 class b_france_motorized_quipe_dartillerie_motoris_e {
-                    name = "Ã‰quipe d'artillerie motorisÃ©e";
+                    name = "Equipe d'artillerie motorisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -979,7 +979,7 @@ class CfgGroups {
                 };
 
                 class b_france_motorized_renforts_motoris_s {
-                    name = "Renforts motorisÃ©s";
+                    name = "Renforts motorises";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -1100,7 +1100,7 @@ class CfgGroups {
                 name = "Support";
 
                 class b_france_support_quipe_dappui_cls {
-                    name = "Ã‰quipe d'appui (CLS)";
+                    name = "Equipe d'appui (CLS)";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -1133,7 +1133,7 @@ class CfgGroups {
                 };
 
                 class b_france_support_quipe_dappui_eod {
-                    name = "Ã‰quipe d'appui (EOD)";
+                    name = "Equipe d'appui (EOD)";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -1166,7 +1166,7 @@ class CfgGroups {
                 };
 
                 class b_france_support_quipe_dappui_sapeur {
-                    name = "Ã‰quipe d'appui (sapeur)";
+                    name = "Equipe d'appui (sapeur)";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -1199,7 +1199,7 @@ class CfgGroups {
                 };
 
                 class b_france_support_quipe_dappui_reco_eod {
-                    name = "Ã‰quipe d'appui reco (EOD)";
+                    name = "Equipe d'appui reco (EOD)";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -1232,7 +1232,7 @@ class CfgGroups {
                 };
 
                 class b_france_support_quipe_hmg {
-                    name = "Ã‰quipe HMG";
+                    name = "Equipe HMG";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -1259,7 +1259,7 @@ class CfgGroups {
                 };
 
                 class b_france_support_quipe_gmg {
-                    name = "Ã‰quipe GMG";
+                    name = "Equipe GMG";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -1286,7 +1286,7 @@ class CfgGroups {
                 };
 
                 class b_france_support_quipe_dartillerie {
-                    name = "Ã‰quipe d'artillerie";
+                    name = "Equipe d'artillerie";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mortar.paa";
@@ -1313,7 +1313,7 @@ class CfgGroups {
                 };
 
                 class b_france_support_bat_mor_mk6_motorise {
-                    name = "Bat. Mortier mk6 MotorisÃ©";
+                    name = "Bat. Mortier mk6 Motorise";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
@@ -1369,7 +1369,7 @@ class CfgGroups {
                 name = "Mechanized";
 
                 class b_france_mechanized_escouade_de_fusiliers_mcanis_e {
-                    name = "Escouade de fusiliers mÃ©canisÃ©e";
+                    name = "Escouade de fusiliers mecanisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -1432,7 +1432,7 @@ class CfgGroups {
                 };
 
                 class b_france_mechanized_escouade_anti_blind_sm_canis_e {
-                    name = "Escouade anti-blindÃ©s mÃ©canisÃ©e";
+                    name = "Escouade anti-blindes mecanisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -1495,7 +1495,7 @@ class CfgGroups {
                 };
 
                 class b_france_mechanized_escouade_de_dfense_arienne_mcanis_e {
-                    name = "Escouade de dÃ©fense aÃ©rienne mÃ©canisÃ©e";
+                    name = "Escouade de defense aerienne mecanisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -1558,7 +1558,7 @@ class CfgGroups {
                 };
 
                 class b_france_mechanized_escouade_dappui_mcanis_e {
-                    name = "Escouade d'appui mÃ©canisÃ©e";
+                    name = "Escouade d'appui mecanisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -1659,7 +1659,7 @@ class CfgGroups {
                 };
 
                 class b_france_armored_peloton_de_chars_combin {
-                    name = "Peloton de chars (combinÃ©)";
+                    name = "Peloton de chars (combine)";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
@@ -1865,7 +1865,7 @@ class CfgGroups {
                 };
 
                 class b_france_ctrg_unit {
-                    name = "UnitÃ©";
+                    name = "Unite";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -1919,7 +1919,7 @@ class CfgGroups {
                 };
 
                 class b_france_ctrg_escouade_reco_motoris_e {
-                    name = "Escouade reco motorisÃ©e";
+                    name = "Escouade reco motorisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -1970,7 +1970,7 @@ class CfgGroups {
                 };
 
                 class b_france_ctrg_quipe_dassaut_motoris_e {
-                    name = "Ã‰quipe d'assaut motorisÃ©e";
+                    name = "Equipe d'assaut motorisee";
                     side = 1;
                     faction = "B_ZV_F2035";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -2694,7 +2694,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Fusilier (lÃ©ger)";
+        displayName = "Fusilier (leger)";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -2846,7 +2846,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Chef d'Ã©quipe";
+        displayName = "Chef d'equipe";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -2884,7 +2884,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Tireur d'Ã©lite";
+        displayName = "Tireur d'elite";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3002,7 +3002,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "RÃ©parateur";
+        displayName = "Reparateur";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3042,7 +3042,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "DÃ©molisseur";
+        displayName = "Demolisseur";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3082,7 +3082,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Pilote d'hÃ©licoptÃ¨re";
+        displayName = "Pilote d'helicoptere";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3120,7 +3120,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "PrÃ©posÃ© aux munitions";
+        displayName = "Prepose aux munitions";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3160,7 +3160,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "SpÃ©cialiste en missiles (AC)";
+        displayName = "Specialiste en missiles (AC)";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3200,7 +3200,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "SpÃ©cialiste en missiles (AA)";
+        displayName = "Specialiste en missiles (AA)";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3280,7 +3280,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Homme d'Ã©quipage";
+        displayName = "Homme d'equipage";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3434,7 +3434,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Ã‰quipage d'hÃ©lico";
+        displayName = "Equipage d'helico";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3512,7 +3512,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "OpÃ©rateur drone";
+        displayName = "Operateur drone";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3590,7 +3590,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Fusilier (dÃ©sarmÃ©)";
+        displayName = "Fusilier (desarme)";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3668,7 +3668,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Chef d'Ã©quipe aquatique";
+        displayName = "Chef d'equipe aquatique";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3706,7 +3706,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Plongeur dÃ©molisseur";
+        displayName = "Plongeur demolisseur";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3746,7 +3746,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Ã‰claireur";
+        displayName = "Eclaireur";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3784,7 +3784,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Ã‰claireur (AC)";
+        displayName = "Eclaireur (AC)";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3824,7 +3824,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "DÃ©molisseur reco";
+        displayName = "Demolisseur reco";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3864,7 +3864,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "MÃ©decin reco";
+        displayName = "Medecin reco";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3904,7 +3904,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Chef d'Ã©quipe reco";
+        displayName = "Chef d'equipe reco";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -3942,7 +3942,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Tireur d'Ã©lite reco";
+        displayName = "Tireur d'elite reco";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4018,7 +4018,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "RepÃ©reur";
+        displayName = "Repereur";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4134,7 +4134,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "SpÃ©cialiste en missiles adjoint (AC)";
+        displayName = "Specialiste en missiles adjoint (AC)";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4174,7 +4174,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "SpÃ©cialiste en missiles adjoint (AA)";
+        displayName = "Specialiste en missiles adjoint (AA)";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4414,7 +4414,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "EntitÃ© RV";
+        displayName = "Entite RV";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4642,7 +4642,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Tireur d'Ã©lite";
+        displayName = "Tireur d'elite";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4680,7 +4680,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Tireur d'Ã©lite reco";
+        displayName = "Tireur d'elite reco";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4756,7 +4756,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Chef d'Ã©quipe";
+        displayName = "Chef d'equipe";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4794,7 +4794,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "DÃ©molisseur";
+        displayName = "Demolisseur";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4834,7 +4834,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "MÃ©decin";
+        displayName = "Medecin";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4874,7 +4874,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Tireur d'Ã©lite";
+        displayName = "Tireur d'elite";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4912,7 +4912,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Ã‰claireur";
+        displayName = "Eclaireur";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -4950,7 +4950,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Ã‰claireur (AC)";
+        displayName = "Eclaireur (AC)";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -5142,7 +5142,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "SpÃ©cialiste mines";
+        displayName = "Specialiste mines";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -5182,7 +5182,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "OpÃ©rateur drone (AL-6)";
+        displayName = "Operateur drone (AL-6)";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -5222,7 +5222,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "OpÃ©rateur drone (AL-6, mÃ©dical)";
+        displayName = "Operateur drone (AL-6, medical)";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -5262,7 +5262,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Fusilier (AT lÃ©ger)";
+        displayName = "Fusilier (AT leger)";
         side = 1;
         faction = "B_ZV_F2035";
 
@@ -5654,7 +5654,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Embarcation lÃ©gÃ¨re";
+        displayName = "Embarcation legere";
         side = 1;
         faction = "B_ZV_F2035";
         crew = "FR2035_Soldier_F";
@@ -5829,7 +5829,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "HEMTT Transport (bÃ¢chÃ©)";
+        displayName = "HEMTT Transport (bÃ¢che)";
         side = 1;
         faction = "B_ZV_F2035";
         crew = "FR2035_Soldier_F";
@@ -5937,7 +5937,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "HEMTT RÃ©paration";
+        displayName = "HEMTT Reparation";
         side = 1;
         faction = "B_ZV_F2035";
         crew = "FR2035_Soldier_F";
@@ -6009,7 +6009,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "HEMTT MÃ©dical";
+        displayName = "HEMTT Medical";
         side = 1;
         faction = "B_ZV_F2035";
         crew = "FR2035_Soldier_F";
@@ -6171,7 +6171,7 @@ class CfgVehicles {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Polaris DAGOR (lÃ©ger)";
+        displayName = "Polaris DAGOR (leger)";
         side = 1;
         faction = "B_ZV_F2035";
         crew = "FR2035_CTRG_Soldier_F";
