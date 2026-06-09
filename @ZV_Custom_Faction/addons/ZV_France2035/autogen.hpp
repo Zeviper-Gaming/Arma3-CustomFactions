@@ -3352,6 +3352,44 @@ class CfgVehicles {
 
     };
 
+    class B_France_ART_Officier_01 : FR2035_officer_F_OCimport_02 {
+        author = "Florian";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Officier d'artillerie";
+        side = 1;
+        faction = "B_ZV_F2035";
+
+        identityTypes[] = {"Head_Tanoan","LanguageENGFRE_F","G_NATO_casual"};
+
+        uniformClass = "FR2035_U_CombatUniform_ce";
+
+        linkedItems[] = {"FR2035_V_Bandollier_ce","FR2035_H_MilCap_ce","ItemMap","B_Uavterminal","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"FR2035_V_Bandollier_ce","FR2035_H_MilCap_ce","ItemMap","B_Uavterminal","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"FR2035_arifle_416F_blk_ACO_F","hgun_Pistol_heavy_01_MRD_F"};
+        respawnWeapons[] = {"FR2035_arifle_416F_blk_ACO_F","hgun_Pistol_heavy_01_MRD_F"};
+
+        magazines[] = {"30Rnd_556x45_Stanag_red","11Rnd_45ACP_Mag","30Rnd_556x45_Stanag_red","11Rnd_45ACP_Mag"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag_red","11Rnd_45ACP_Mag","30Rnd_556x45_Stanag_red","11Rnd_45ACP_Mag"};
+
+        ALiVE_orbatCreator_loadout[] = {{"FR2035_arifle_416F_blk_ACO_F","","","optic_Aco",{"30Rnd_556x45_Stanag_red",30},{},""},{},{"hgun_Pistol_heavy_01_MRD_F","","","optic_MRD",{"11Rnd_45ACP_Mag",15},{},""},{"FR2035_U_CombatUniform_ce",{{"FirstAidKit",1},{"30Rnd_556x45_Stanag_red",3,30},{"SmokeShell",1,1}}},{"FR2035_V_Bandollier_ce",{{"11Rnd_45ACP_Mag",2,15},{"SmokeShellGreen",1,1},{"Chemlight_green",2,1}}},{},"FR2035_H_MilCap_ce","",{},{"ItemMap","B_Uavterminal","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
     class B_France_Concurrent_01 : FR2035_Competitor_F_OCimport_02 {
         author = "Florian";
         scope = 2;
