@@ -6208,7 +6208,7 @@ class CfgVehicles {
         displayName = "Mortier mk6";
         side = 1;
         faction = "B_ZV_F2035";
-        crew = "B_Soldier_F";
+        crew = "B_France_Artilleur_adjoint_Mk6_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
