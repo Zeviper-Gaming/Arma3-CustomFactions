@@ -1312,11 +1312,11 @@ class CfgGroups {
                     };
                 };
 
-                class b_france_bat_mor_mk6_motorise {
-                    name = "Bat. mk6 MotorisÃ©";
+                class b_france_support_bat_mor_mk6_motorise {
+                    name = "Bat. Mortier mk6 MotorisÃ©";
                     side = 1;
                     faction = "B_ZV_F2035";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_mortar.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -1329,35 +1329,35 @@ class CfgGroups {
                         position[] = {5,-5,0};
                         rank = "SOLDAT";
                         side = 1;
-                        vehicle = "B_France_MOR_mk6_01";
+                        vehicle = "B_ZV_F2035_Mortier_mk6_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
-                        rank = "PRIVATE";
+                        rank = "SOLDAT";
                         side = 1;
-                        vehicle = "B_France_MOR_mk6_01";
+                        vehicle = "B_ZV_F2035_Mortier_mk6_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
-                        rank = "PRIVATE";
+                        rank = "SOLDAT";
                         side = 1;
-                        vehicle = "B_France_MOR_mk6_01";
+                        vehicle = "B_ZV_F2035_Mortier_mk6_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
-                        rank = "PRIVATE";
+                        rank = "CAPORAL";
                         side = 1;
                         vehicle = "B_France_Op_rateur_drone_01";
                     };
                     class Unit5 {
                         position[] = {16,-28,0};
-                        rank = "PRIVATE";
+                        rank = "SOLDAT";
                         side = 1;
                         vehicle = "B_France_HEMTT_Munitions_01";
                     };
                     class Unit6 {
                         position[] = {-16,-28,0};
-                        rank = "PRIVATE";
+                        rank = "SOLDAT";
                         side = 1;
                         vehicle = "B_France_MATV_HMG_01";
                     };
@@ -6201,7 +6201,7 @@ class CfgVehicles {
 
     };
 
-    class B_France_MOR_mk6_01 : B_Mortar_01_F_OCimport_02 {
+    class B_ZV_F2035_Mortier_mk6_01 : B_Mortar_01_F_OCimport_02 {
         author = "Florian";
         scope = 2;
         scopeCurator = 2;
